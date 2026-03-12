@@ -1,0 +1,1 @@
+Get-CimInstance Win32_Process | Where-Object { $_.Name -match 'pwsh|powershell' } | Select-Object ProcessId, Name, CommandLine | ForEach-Object { "PID=$($_.ProcessId) Name=$($_.Name)`n$($_.CommandLine)`n---" }

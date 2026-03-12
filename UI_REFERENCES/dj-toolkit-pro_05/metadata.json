@@ -1,0 +1,8 @@
+{
+  "name": "DJ Toolkit Pro",
+  "description": "High-performance neural audio suite for professional DJs. BPM analysis, key detection, and stem splitting.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}

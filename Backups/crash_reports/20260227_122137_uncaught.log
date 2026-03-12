@@ -1,0 +1,31 @@
+time=2026-02-27T12:21:37
+kind=uncaught
+title=Unhandled exception
+python=3.11.0 (main, Oct 24 2022, 18:26:48) [MSC v.1933 64 bit (AMD64)]
+cwd=C:\Users\User\Desktop\Copyright
+base_dir=C:\Users\User\Desktop\Copyright
+
+details:
+Cannot operate on a closed database.
+
+traceback:
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Copyright\app_pyside.py", line 2911, in _poll_toolkit_queue
+    self._set_toolkit_state("Error")
+  File "C:\Users\User\Desktop\Copyright\app_pyside.py", line 3007, in _set_toolkit_state
+    self._refresh_status_rail()
+  File "C:\Users\User\Desktop\Copyright\app_pyside.py", line 1340, in _refresh_status_rail
+    self._emit_web_status()
+  File "C:\Users\User\Desktop\Copyright\app_pyside.py", line 1581, in _emit_web_status
+    payload = self._build_bridge_status_payload()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Copyright\app_pyside.py", line 1507, in _build_bridge_status_payload
+    "copyright": self._build_copyright_status_payload(),
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Copyright\app_pyside.py", line 1512, in _build_copyright_status_payload
+    stats = self.db.stats()
+            ^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Copyright\database.py", line 131, in stats
+    row = self.conn.execute(
+          ^^^^^^^^^^^^^^^^^^
+sqlite3.ProgrammingError: Cannot operate on a closed database.

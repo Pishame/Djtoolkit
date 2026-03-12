@@ -1,0 +1,1 @@
+"""Stitch MCP integration package."""

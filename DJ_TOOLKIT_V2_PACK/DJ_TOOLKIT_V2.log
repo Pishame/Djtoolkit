@@ -1,0 +1,847 @@
+2026-02-11 21:06:50  Startup temp cleanup: deleted=0 failed=0
+2026-02-11 21:13:03  Startup temp cleanup: deleted=0 failed=0
+2026-02-11 21:15:50  Startup temp cleanup: deleted=0 failed=0
+2026-02-11 21:20:57  Startup temp cleanup: deleted=0 failed=0
+2026-02-11 21:35:49  Startup temp cleanup: deleted=0 failed=0
+2026-02-11 21:36:01  Queue start job=ydlq count=1
+2026-02-11 21:36:09  Queue cancelled. Cleanup deleted=0 failed=0
+2026-02-11 21:36:09  Queue end job=ydlq success=0 failed=0 skipped=0
+2026-02-11 21:39:05  Startup temp cleanup: deleted=0 failed=0
+2026-02-11 21:40:38  Startup temp cleanup: deleted=0 failed=0
+2026-02-11 21:47:24  Startup temp cleanup: deleted=0 failed=0
+2026-02-11 21:47:55  Queue start job=ydlq count=1
+2026-02-11 21:48:00  Queue item failed: https://www.youtube.com/watch?v=nIb22KNpuM4&list=RDnIb22KNpuM4&rco=1 :: [youtube:tab] Extracting URL: https://www.youtube.com/watch?v=nIb22KNpuM4&list=RDnIb22KNpuM4&rco=1
+[youtube:tab] Downloading just the video nIb22KNpuM4 because of --no-playlist
+[youtube] Extracting URL: https://www.youtube.com/watch?v=nIb22KNpuM4
+[youtube] nIb22KNpuM4: Downloading webpage
+[youtube] nIb22KNpuM4: Downloading android vr player API JSON
+[youtube] nIb22KNpuM4: This video is age-restricted; some formats may be missing without authentication. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+[youtube] nIb22KNpuM4: Downloading web embedded client config
+[youtube] nIb22KNpuM4: Downloading player fd1b5dc8-tv
+[youtube] nIb22KNpuM4: Downloading web embedded player API JSON
+[youtube] nIb22KNpuM4: Downloading web safari player API JSON
+ERROR: [youtube] nIb22KNpuM4: Sign in to confirm your age. This video may be inappropriate for some users. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+2026-02-11 21:48:00  Queue end job=ydlq success=0 failed=1 skipped=0
+2026-02-11 21:48:01  Toast notification failed: Unable to find type [Windows.UI.Notifications.ToastNotificationManager,Windows.UI.Notifications, ContentType=WindowsRuntime].
+2026-02-11 21:48:02  Notify job=ydlq state=Failed sent=True details=Success=0, Failed=1, Skipped=0
+2026-02-11 21:48:27  Queue start job=ydlq count=1
+2026-02-11 21:48:54  Queue cancelled. Cleanup deleted=1 failed=0
+2026-02-11 21:48:54  Queue end job=ydlq success=0 failed=0 skipped=0
+2026-02-11 22:01:02  Startup temp cleanup: deleted=0 failed=0
+2026-02-11 22:12:50  Startup temp cleanup: deleted=0 failed=0
+2026-02-11 22:17:44  Toast notification failed: Unable to find type [Windows.UI.Notifications.ToastNotificationManager,Windows.UI.Notifications, ContentType=WindowsRuntime].
+2026-02-11 22:17:45  Notify job=Demucs state=Failed sent=True details=No stems created.
+2026-02-11 22:32:24  Startup temp cleanup: deleted=0 failed=0
+2026-02-11 22:33:00  Temp cleanup deleted: C:\Users\User\Downloads\DJDownloads\First60\list.txt
+2026-02-11 22:33:41  Toast notification failed: Unable to find type [Windows.UI.Notifications.ToastNotificationManager,Windows.UI.Notifications, ContentType=WindowsRuntime].
+2026-02-11 22:33:43  Notify job=Demucs state=Failed sent=True details=No stems created.
+2026-02-11 22:37:24  Toast notification failed: Unable to find type [Windows.UI.Notifications.ToastNotificationManager,Windows.UI.Notifications, ContentType=WindowsRuntime].
+2026-02-11 22:37:26  Notify job=Demucs state=Failed sent=True details=No stems created.
+2026-02-11 22:47:54  Startup temp cleanup: deleted=0 failed=0
+2026-02-11 22:52:31  Toast notification failed: Unable to find type [Windows.UI.Notifications.ToastNotificationManager,Windows.UI.Notifications, ContentType=WindowsRuntime].
+2026-02-11 22:52:32  Notify job=Demucs state=Failed sent=True details=No stems created.
+2026-02-11 22:55:12  Startup temp cleanup: deleted=0 failed=0
+2026-02-11 22:58:52  Toast notification failed: Unable to find type [Windows.UI.Notifications.ToastNotificationManager,Windows.UI.Notifications, ContentType=WindowsRuntime].
+2026-02-11 22:58:54  Notify job=Demucs state=Failed sent=True details=No stems created.
+2026-02-11 22:59:52  Startup temp cleanup: deleted=0 failed=0
+2026-02-11 23:02:59  Toast notification failed: Unable to find type [Windows.UI.Notifications.ToastNotificationManager,Windows.UI.Notifications, ContentType=WindowsRuntime].
+2026-02-11 23:03:00  Notify job=Demucs state=Completed sent=True details=C:\Users\User\Downloads\stems
+2026-02-12 10:28:31  Startup temp cleanup: deleted=0 failed=0
+2026-02-12 10:36:08  Startup temp cleanup: deleted=0 failed=0
+2026-02-12 10:43:19  System.Management.Automation.RuntimeException: Operation cancelled by user (Ctrl+C).
+2026-02-12 10:43:19  Toast notification failed: Unable to find type [Windows.UI.Notifications.ToastNotificationManager,Windows.UI.Notifications, ContentType=WindowsRuntime].
+2026-02-12 10:43:21  Notify job=Key Detect state=Failed sent=True details=Operation cancelled by user (Ctrl+C).
+2026-02-12 10:43:50  Startup temp cleanup: deleted=0 failed=0
+2026-02-12 10:43:55  Startup profile: total=247ms; Load-Config=122ms | Apply-UiTheme=149ms | Ensure-Folders=156ms | Startup-TempCleanup (deleted=0 failed=0)=247ms
+2026-02-12 10:44:02  Startup temp cleanup: deleted=0 failed=0
+2026-02-12 10:44:03  Startup profile: total=241ms; Load-Config=135ms | Apply-UiTheme=158ms | Ensure-Folders=170ms | Startup-TempCleanup (deleted=0 failed=0)=241ms
+2026-02-12 10:46:18  Toast notification failed: Unable to find type [Windows.UI.Notifications.ToastNotificationManager,Windows.UI.Notifications, ContentType=WindowsRuntime].
+2026-02-12 10:46:20  Notify job=Key Detect state=Completed sent=True details=Detected=1; Review=0; Failed=0
+2026-02-12 10:47:06  Startup temp cleanup: deleted=0 failed=0
+2026-02-12 10:47:06  Startup profile: total=258ms; Load-Config=141ms | Apply-UiTheme=38ms | Ensure-Folders=7ms | Startup-TempCleanup (deleted=0 failed=0)=72ms
+2026-02-12 10:51:30  Startup temp cleanup: deleted=0 failed=0
+2026-02-12 10:51:30  Startup profile: in-script=276ms; boot=1416ms; Load-Config=117ms | Apply-UiTheme=30ms | Ensure-Folders=7ms | Startup-TempCleanup (deleted=0 failed=0)=122ms
+2026-02-12 10:51:37  Startup temp cleanup: deleted=0 failed=0
+2026-02-12 10:51:37  Startup profile: in-script=239ms; boot=1142ms; Load-Config=130ms | Apply-UiTheme=28ms | Ensure-Folders=6ms | Startup-TempCleanup (deleted=0 failed=0)=74ms
+2026-02-12 10:53:45  Toast notification failed: Unable to find type [Windows.UI.Notifications.ToastNotificationManager,Windows.UI.Notifications, ContentType=WindowsRuntime].
+2026-02-12 10:53:46  Notify job=Key Detect state=Completed sent=True details=Detected=1; Review=0; Failed=0
+2026-02-12 10:54:05  Startup temp cleanup: deleted=0 failed=0
+2026-02-12 10:54:05  Startup profile: in-script=279ms; boot=1236ms; Load-Config=151ms | Apply-UiTheme=40ms | Ensure-Folders=8ms | Startup-TempCleanup (deleted=0 failed=0)=80ms
+2026-02-12 10:57:29  Toast notification failed: Unable to find type [Windows.UI.Notifications.ToastNotificationManager,Windows.UI.Notifications, ContentType=WindowsRuntime].
+2026-02-12 10:57:30  Notify job=Key Detect state=Completed sent=True details=Detected=2; Review=0; Failed=0
+2026-02-12 11:12:41  Startup temp cleanup: deleted=0 failed=0
+2026-02-12 11:12:41  Startup profile: in-script=201ms; boot=1014ms; Load-Config=112ms | Apply-UiTheme=24ms | Ensure-Folders=5ms | Startup-TempCleanup (deleted=0 failed=0)=59ms
+2026-02-12 11:12:50  Startup temp cleanup: deleted=0 failed=0
+2026-02-12 11:12:50  Startup profile: in-script=184ms; boot=991ms; Load-Config=92ms | Apply-UiTheme=24ms | Ensure-Folders=7ms | Startup-TempCleanup (deleted=0 failed=0)=59ms
+2026-02-12 11:12:55  Startup temp cleanup: deleted=0 failed=0
+2026-02-12 11:12:55  Startup profile: in-script=213ms; boot=1103ms; Load-Config=106ms | Apply-UiTheme=27ms | Ensure-Folders=18ms | Startup-TempCleanup (deleted=0 failed=0)=62ms
+2026-02-12 11:13:57  Startup temp cleanup: deleted=0 failed=0
+2026-02-12 11:13:57  Startup profile: in-script=191ms; boot=995ms; Load-Config=100ms | Apply-UiTheme=26ms | Ensure-Folders=5ms | Startup-TempCleanup (deleted=0 failed=0)=59ms
+2026-02-12 11:14:03  Queue start job=ydlq count=1
+2026-02-12 11:15:44  Queue end job=ydlq success=1 failed=0 skipped=0
+2026-02-12 11:15:45  Toast notification failed: Unable to find type [Windows.UI.Notifications.ToastNotificationManager,Windows.UI.Notifications, ContentType=WindowsRuntime].
+2026-02-12 11:15:46  Notify job=ydlq state=Completed sent=True details=Success=1, Failed=0, Skipped=0
+2026-02-12 11:17:23  Startup temp cleanup: deleted=0 failed=0
+2026-02-12 11:17:23  Startup profile: in-script=203ms; boot=1072ms; Load-Config=108ms | Apply-UiTheme=25ms | Ensure-Folders=7ms | Startup-TempCleanup (deleted=0 failed=0)=63ms
+2026-02-12 11:24:01  Startup temp cleanup: deleted=0 failed=0
+2026-02-12 11:24:01  Startup profile: in-script=198ms; boot=1033ms; Load-Config=106ms | Apply-UiTheme=26ms | Ensure-Folders=5ms | Startup-TempCleanup (deleted=0 failed=0)=61ms
+2026-02-12 11:24:03  Queue start job=ydlq count=1
+2026-02-12 11:24:16  Queue end job=ydlq success=1 failed=0 skipped=0
+2026-02-12 11:24:17  Toast notification failed: Unable to find type [Windows.UI.Notifications.ToastNotificationManager,Windows.UI.Notifications, ContentType=WindowsRuntime].
+2026-02-12 11:24:18  Notify job=ydlq state=Completed sent=True details=Success=1, Failed=0, Skipped=0
+2026-02-12 11:30:27  Queue start job=ydlq count=1
+2026-02-12 11:30:35  Queue item failed: https://www.youtube.com/watch?v=mnsStip7Frk :: [youtube] Extracting URL: https://www.youtube.com/watch?v=mnsStip7Frk
+[youtube] mnsStip7Frk: Downloading webpage
+[youtube] mnsStip7Frk: Downloading android vr player API JSON
+[youtube] mnsStip7Frk: This video is age-restricted; some formats may be missing without authentication. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+[youtube] mnsStip7Frk: Downloading web embedded client config
+[youtube] mnsStip7Frk: Downloading player fd1b5dc8-tv
+[youtube] mnsStip7Frk: Downloading web embedded player API JSON
+[youtube] mnsStip7Frk: Downloading web safari player API JSON
+ERROR: [youtube] mnsStip7Frk: Sign in to confirm your age. This video may be inappropriate for some users. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+2026-02-12 11:30:35  Queue end job=ydlq success=0 failed=1 skipped=0
+2026-02-12 11:30:35  Toast notification failed: Unable to find type [Windows.UI.Notifications.ToastNotificationManager,Windows.UI.Notifications, ContentType=WindowsRuntime].
+2026-02-12 11:30:37  Notify job=ydlq state=Failed sent=True details=Success=0, Failed=1, Skipped=0
+2026-02-12 11:30:51  Startup temp cleanup: deleted=0 failed=0
+2026-02-12 11:30:52  Startup profile: in-script=209ms; boot=1073ms; Load-Config=102ms | Apply-UiTheme=25ms | Ensure-Folders=8ms | Startup-TempCleanup (deleted=0 failed=0)=74ms
+2026-02-12 11:30:53  Queue start job=ydlq count=1
+2026-02-12 11:31:00  Queue item failed: https://www.youtube.com/watch?v=mnsStip7Frk :: [youtube] Extracting URL: https://www.youtube.com/watch?v=mnsStip7Frk
+[youtube] mnsStip7Frk: Downloading webpage
+[youtube] mnsStip7Frk: Downloading android vr player API JSON
+[youtube] mnsStip7Frk: This video is age-restricted; some formats may be missing without authentication. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+[youtube] mnsStip7Frk: Downloading web embedded client config
+[youtube] mnsStip7Frk: Downloading player fd1b5dc8-tv
+[youtube] mnsStip7Frk: Downloading web embedded player API JSON
+[youtube] mnsStip7Frk: Downloading web safari player API JSON
+ERROR: [youtube] mnsStip7Frk: Sign in to confirm your age. This video may be inappropriate for some users. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+2026-02-12 11:31:00  Queue end job=ydlq success=0 failed=1 skipped=0
+2026-02-12 11:31:00  Toast notification failed: Unable to find type [Windows.UI.Notifications.ToastNotificationManager,Windows.UI.Notifications, ContentType=WindowsRuntime].
+2026-02-12 11:31:01  Notify job=ydlq state=Failed sent=True details=Success=0, Failed=1, Skipped=0
+2026-02-12 12:53:47  Startup temp cleanup: deleted=0 failed=0
+2026-02-12 12:53:53  Startup profile: in-script=358ms; boot=2426ms; Load-Config=177ms | Apply-UiTheme=42ms | Ensure-Folders=7ms | Startup-TempCleanup (deleted=0 failed=0)=131ms
+2026-02-12 12:53:55  Queue start job=ydlq count=1
+2026-02-12 12:58:42  Queue end job=ydlq success=1 failed=0 skipped=0
+2026-02-12 12:58:42  Toast notification failed: Unable to find type [Windows.UI.Notifications.ToastNotificationManager,Windows.UI.Notifications, ContentType=WindowsRuntime].
+2026-02-12 12:58:44  Notify job=ydlq state=Completed sent=True details=Success=1, Failed=0, Skipped=0
+2026-02-12 13:24:32  Startup temp cleanup: deleted=0 failed=0
+2026-02-12 13:24:32  Startup profile: in-script=216ms; boot=1009ms; Load-Config=91ms | Apply-UiTheme=41ms | Ensure-Folders=10ms | Startup-TempCleanup (deleted=0 failed=0)=74ms
+2026-02-12 13:32:33  Startup temp cleanup: deleted=0 failed=0
+2026-02-12 13:32:33  Startup profile: in-script=235ms; boot=1341ms; Load-Config=126ms | Apply-UiTheme=34ms | Ensure-Folders=7ms | Startup-TempCleanup (deleted=0 failed=0)=67ms
+2026-02-12 14:02:40  Startup temp cleanup: deleted=0 failed=0
+2026-02-12 14:02:40  Startup profile: in-script=180ms; boot=980ms; Load-Config=91ms | Apply-UiTheme=24ms | Ensure-Folders=6ms | Startup-TempCleanup (deleted=0 failed=0)=59ms
+2026-02-12 14:02:57  Queue start job=ydlt count=1
+2026-02-12 14:03:08  Queue end job=ydlt success=1 failed=0 skipped=0
+2026-02-12 14:03:08  Toast notification failed: Unable to find type [Windows.UI.Notifications.ToastNotificationManager,Windows.UI.Notifications, ContentType=WindowsRuntime].
+2026-02-12 14:03:09  Notify job=ydlt state=Completed sent=True details=Success=1, Failed=0, Skipped=0
+2026-02-12 14:05:39  Startup temp cleanup: deleted=0 failed=0
+2026-02-12 14:05:39  Startup profile: in-script=221ms; boot=1053ms; Load-Config=109ms | Apply-UiTheme=29ms | Ensure-Folders=12ms | Startup-TempCleanup (deleted=0 failed=0)=71ms
+2026-02-12 14:05:42  Queue start job=ydlt count=1
+2026-02-12 14:05:51  Queue end job=ydlt success=1 failed=0 skipped=0
+2026-02-12 14:05:52  Toast notification failed: Unable to find type [Windows.UI.Notifications.ToastNotificationManager,Windows.UI.Notifications, ContentType=WindowsRuntime].
+2026-02-12 14:05:53  Notify job=ydlt state=Completed sent=True details=Success=1, Failed=0, Skipped=0
+2026-02-12 14:11:03  Startup temp cleanup: deleted=0 failed=0
+2026-02-12 14:11:03  Startup profile: in-script=188ms; boot=980ms; Load-Config=95ms | Apply-UiTheme=25ms | Ensure-Folders=7ms | Startup-TempCleanup (deleted=0 failed=0)=61ms
+2026-02-12 14:11:28  Queue start job=ydlt-sound count=1
+2026-02-12 14:11:35  Queue item failed: https://vt.tiktok.com/ZS9JH9F2bfVpA-sMu0C/ :: [vm.tiktok] Extracting URL: https://vt.tiktok.com/ZS9JH9F2bfVpA-sMu0C/
+[vm.tiktok] ZS9JH9F2bfVpA: Downloading webpage
+[tiktok:sound] Extracting URL: https://www.tiktok.com/music/original-sound-7323962678836349702?_d=secCgYIASAHKAESPgo832HGSMabu50...=ios&utm_source=more
+[download] Downloading playlist: 7323962678836349702
+[tiktok:sound] Playlist 7323962678836349702: Downloading 1 items
+[download] Finished downloading playlist: 7323962678836349702
+ERROR: No working app info is available
+2026-02-12 14:11:35  Queue end job=ydlt-sound success=0 failed=1 skipped=0
+2026-02-12 14:11:35  Toast notification failed: Unable to find type [Windows.UI.Notifications.ToastNotificationManager,Windows.UI.Notifications, ContentType=WindowsRuntime].
+2026-02-12 14:11:37  Notify job=ydlt-sound state=Failed sent=True details=Success=0, Failed=1, Skipped=0, Folder=C:\Users\User\Downloads\DJDownloads\TikToks\TikTok_Sound
+2026-02-12 14:13:48  Startup temp cleanup: deleted=0 failed=0
+2026-02-12 14:13:49  Startup profile: in-script=274ms; boot=1232ms; Load-Config=134ms | Apply-UiTheme=41ms | Ensure-Folders=9ms | Startup-TempCleanup (deleted=0 failed=0)=90ms
+2026-02-12 14:14:14  Startup temp cleanup: deleted=0 failed=0
+2026-02-12 14:14:14  Startup profile: in-script=182ms; boot=981ms; Load-Config=92ms | Apply-UiTheme=24ms | Ensure-Folders=6ms | Startup-TempCleanup (deleted=0 failed=0)=60ms
+2026-02-12 14:14:29  Queue start job=ydlt-sound count=1
+2026-02-12 14:14:34  Queue item failed: https://www.tiktok.com/music/original-sound-7323962678836349702?_d=secCgYIASAHKAESPgo832HGSMabu50GzHRuTYcOVXdkUf6Da4CM63nTqzSYmMUSdQnKNcQMEt0%2B04i5OB0K3yTHvQsbR9icFnGoGgA%3D&_r=1&_svg=1&checksum=731ad2d25f7d403faf0742b38ca39fbc6ef2df1affb9650f96b209611430c28f&sec_user_id=MS4wLjABAAAADhihgqhVCa1fNiLPlP9t8CPgtBHAV8uhy5MyezmHgvTBSDvgTcY08V5KtdSQF2cC&share_app_id=1233&share_link_id=9118C2E6-FA51-47FF-AF52-8A5559E8C842&share_music_id=7323962678836349702&share_region=KE&sharer_language=en&social_share_type=7&source=h5_m&timestamp=1770894628&tt_from=more&u_code=d8jml9jill782m&ug_btm=b2878%2Cb5171&user_id=6746843065779520518&utm_campaign=client_share&utm_medium=ios&utm_source=more :: [tiktok:sound] Extracting URL: https://www.tiktok.com/music/original-sound-7323962678836349702?_d=secCgYIASAHKAESPgo832HGSMabu50...=ios&utm_source=more
+[download] Downloading playlist: 7323962678836349702
+[tiktok:sound] Playlist 7323962678836349702: Downloading 1 items
+[download] Finished downloading playlist: 7323962678836349702
+ERROR: No working app info is available
+2026-02-12 14:14:34  Queue end job=ydlt-sound success=0 failed=1 skipped=0
+2026-02-12 14:14:34  Toast notification failed: Unable to find type [Windows.UI.Notifications.ToastNotificationManager,Windows.UI.Notifications, ContentType=WindowsRuntime].
+2026-02-12 14:14:35  Notify job=ydlt-sound state=Failed sent=True details=Success=0, Failed=1, Skipped=0, Folder=C:\Users\User\Downloads\DJDownloads\TikToks\TikTok_Sound
+2026-02-12 14:16:05  Startup temp cleanup: deleted=0 failed=0
+2026-02-12 14:16:05  Startup profile: in-script=281ms; boot=1483ms; Load-Config=123ms | Apply-UiTheme=35ms | Ensure-Folders=10ms | Startup-TempCleanup (deleted=0 failed=0)=113ms
+2026-02-12 14:16:36  Queue start job=ydlt-sound count=1
+2026-02-12 14:16:40  Queue item failed: https://www.tiktok.com/music/original-sound-7323962678836349702 :: [tiktok:sound] Extracting URL: https://www.tiktok.com/music/original-sound-7323962678836349702
+[download] Downloading playlist: 7323962678836349702
+[tiktok:sound] Playlist 7323962678836349702: Downloading 1 items
+[download] Finished downloading playlist: 7323962678836349702
+ERROR: No working app info is available
+2026-02-12 14:16:40  Queue end job=ydlt-sound success=0 failed=1 skipped=0
+2026-02-12 14:16:41  Toast notification failed: Unable to find type [Windows.UI.Notifications.ToastNotificationManager,Windows.UI.Notifications, ContentType=WindowsRuntime].
+2026-02-12 14:16:42  Notify job=ydlt-sound state=Failed sent=True details=Success=0, Failed=1, Skipped=0, Folder=C:\Users\User\Downloads\DJDownloads\TikToks\TikTok_Sound
+2026-02-12 14:19:18  Startup temp cleanup: deleted=0 failed=0
+2026-02-12 14:19:18  Startup profile: in-script=275ms; boot=1298ms; Load-Config=126ms | Apply-UiTheme=28ms | Ensure-Folders=13ms | Startup-TempCleanup (deleted=0 failed=0)=108ms
+2026-02-12 14:19:41  Queue start job=ydlt-sound count=1
+2026-02-12 14:20:20  Queue item failed: https://www.tiktok.com/music/original-sound-7323962678836349702 :: [tiktok:sound] Extracting URL: https://www.tiktok.com/music/original-sound-7323962678836349702
+[download] Downloading playlist: 7323962678836349702
+[tiktok:sound] Playlist 7323962678836349702: Downloading 1 items
+[download] Finished downloading playlist: 7323962678836349702
+ERROR: No working app info is available
+2026-02-12 14:20:20  Queue end job=ydlt-sound success=0 failed=1 skipped=0
+2026-02-12 14:20:20  Toast notification failed: Unable to find type [Windows.UI.Notifications.ToastNotificationManager,Windows.UI.Notifications, ContentType=WindowsRuntime].
+2026-02-12 14:20:22  Notify job=ydlt-sound state=Failed sent=True details=Success=0, Failed=1, Skipped=0, Folder=C:\Users\User\Downloads\DJDownloads\TikToks\TikTok_Sound
+2026-02-12 14:27:30  Startup temp cleanup: deleted=0 failed=0
+2026-02-12 14:27:31  Startup profile: in-script=190ms; boot=1031ms; Load-Config=93ms | Apply-UiTheme=29ms | Ensure-Folders=6ms | Startup-TempCleanup (deleted=0 failed=0)=61ms
+2026-02-12 14:27:49  Queue start job=ydlt-sound count=1
+2026-02-12 14:28:19  System.Management.Automation.PropertyNotFoundException: The property 'Count' cannot be found on this object. Verify that the property exists.
+   at System.Management.Automation.ExceptionHandlingOps.CheckActionPreference(FunctionContext funcContext, Exception exception)
+   at System.Management.Automation.Interpreter.ActionCallInstruction`2.Run(InterpretedFrame frame)
+   at System.Management.Automation.Interpreter.EnterTryCatchFinallyInstruction.Run(InterpretedFrame frame)
+   at System.Management.Automation.Interpreter.EnterTryCatchFinallyInstruction.Run(InterpretedFrame frame)
+2026-02-12 14:28:19  Toast notification failed: Unable to find type [Windows.UI.Notifications.ToastNotificationManager,Windows.UI.Notifications, ContentType=WindowsRuntime].
+2026-02-12 14:28:20  Notify job=ydlt state=Failed sent=True details=The property 'Count' cannot be found on this object. Verify that the property exists.
+2026-02-12 14:30:05  Startup temp cleanup: deleted=0 failed=0
+2026-02-12 14:30:05  Startup profile: in-script=570ms; boot=2275ms; Load-Config=262ms | Apply-UiTheme=76ms | Ensure-Folders=19ms | Startup-TempCleanup (deleted=0 failed=0)=212ms
+2026-02-12 14:30:19  Queue start job=ydlt-sound count=1
+2026-02-12 14:30:48  System.Management.Automation.PropertyNotFoundException: The property 'Count' cannot be found on this object. Verify that the property exists.
+   at System.Management.Automation.ExceptionHandlingOps.CheckActionPreference(FunctionContext funcContext, Exception exception)
+   at System.Management.Automation.Interpreter.ActionCallInstruction`2.Run(InterpretedFrame frame)
+   at System.Management.Automation.Interpreter.EnterTryCatchFinallyInstruction.Run(InterpretedFrame frame)
+   at System.Management.Automation.Interpreter.EnterTryCatchFinallyInstruction.Run(InterpretedFrame frame)
+2026-02-12 14:30:48  Toast notification failed: Unable to find type [Windows.UI.Notifications.ToastNotificationManager,Windows.UI.Notifications, ContentType=WindowsRuntime].
+2026-02-12 14:30:49  Notify job=ydlt state=Failed sent=True details=The property 'Count' cannot be found on this object. Verify that the property exists.
+2026-02-12 14:32:04  Startup temp cleanup: deleted=0 failed=0
+2026-02-12 14:32:05  Startup profile: in-script=294ms; boot=1746ms; Load-Config=141ms | Apply-UiTheme=38ms | Ensure-Folders=11ms | Startup-TempCleanup (deleted=0 failed=0)=103ms
+2026-02-12 14:32:18  Queue start job=ydlt count=1
+2026-02-12 14:32:28  Queue end job=ydlt success=1 failed=0 skipped=0
+2026-02-12 14:32:28  Toast notification failed: Unable to find type [Windows.UI.Notifications.ToastNotificationManager,Windows.UI.Notifications, ContentType=WindowsRuntime].
+2026-02-12 14:32:29  Notify job=ydlt state=Completed sent=True details=Success=1, Failed=0, Skipped=0
+2026-02-12 14:34:05  Queue start job=ydlt-sound count=1
+2026-02-12 14:34:33  System.Management.Automation.PropertyNotFoundException: The property 'Count' cannot be found on this object. Verify that the property exists.
+   at System.Management.Automation.ExceptionHandlingOps.CheckActionPreference(FunctionContext funcContext, Exception exception)
+   at System.Management.Automation.Interpreter.ActionCallInstruction`2.Run(InterpretedFrame frame)
+   at System.Management.Automation.Interpreter.EnterTryCatchFinallyInstruction.Run(InterpretedFrame frame)
+   at System.Management.Automation.Interpreter.EnterTryCatchFinallyInstruction.Run(InterpretedFrame frame)
+2026-02-12 14:34:33  Toast notification failed: Unable to find type [Windows.UI.Notifications.ToastNotificationManager,Windows.UI.Notifications, ContentType=WindowsRuntime].
+2026-02-12 14:34:35  Notify job=ydlt state=Failed sent=True details=The property 'Count' cannot be found on this object. Verify that the property exists.
+2026-02-12 14:36:50  Queue start job=ydlt-sound count=1
+2026-02-12 14:36:57  Queue item failed: https://www.tiktok.com/music/original-sound-7323962678836349702 :: [tiktok:sound] Extracting URL: https://www.tiktok.com/music/original-sound-7323962678836349702
+[download] Downloading playlist: 7323962678836349702
+[tiktok:sound] Playlist 7323962678836349702: Downloading 1 items
+[download] Finished downloading playlist: 7323962678836349702
+ERROR: No working app info is available
+2026-02-12 14:36:57  Queue end job=ydlt-sound success=0 failed=1 skipped=0
+2026-02-12 14:36:57  Toast notification failed: Unable to find type [Windows.UI.Notifications.ToastNotificationManager,Windows.UI.Notifications, ContentType=WindowsRuntime].
+2026-02-12 14:36:58  Notify job=ydlt-sound state=Failed sent=True details=Success=0, Failed=1, Skipped=0, Folder=C:\Users\User\Downloads\DJDownloads\TikToks\TikTok_Sound
+2026-02-12 14:42:14  Startup temp cleanup: deleted=0 failed=0
+2026-02-12 14:42:14  Startup profile: in-script=256ms; boot=1107ms; Load-Config=115ms | Apply-UiTheme=28ms | Ensure-Folders=13ms | Startup-TempCleanup (deleted=0 failed=0)=99ms
+2026-02-12 14:43:36  Startup temp cleanup: deleted=0 failed=0
+2026-02-12 14:43:36  Startup profile: in-script=922ms; boot=4187ms; Load-Config=645ms | Apply-UiTheme=74ms | Ensure-Folders=30ms | Startup-TempCleanup (deleted=0 failed=0)=174ms
+2026-02-12 14:43:43  Startup temp cleanup: deleted=0 failed=0
+2026-02-12 14:43:43  Startup profile: in-script=209ms; boot=984ms; Load-Config=95ms | Apply-UiTheme=24ms | Ensure-Folders=27ms | Startup-TempCleanup (deleted=0 failed=0)=63ms
+2026-02-12 14:43:48  System.Management.Automation.PropertyNotFoundException: The property 'Count' cannot be found on this object. Verify that the property exists.
+   at System.Management.Automation.ExceptionHandlingOps.CheckActionPreference(FunctionContext funcContext, Exception exception)
+   at System.Management.Automation.Interpreter.ActionCallInstruction`2.Run(InterpretedFrame frame)
+   at System.Management.Automation.Interpreter.EnterTryCatchFinallyInstruction.Run(InterpretedFrame frame)
+   at System.Management.Automation.Interpreter.EnterTryCatchFinallyInstruction.Run(InterpretedFrame frame)
+2026-02-12 14:43:48  Toast notification failed: Unable to find type [Windows.UI.Notifications.ToastNotificationManager,Windows.UI.Notifications, ContentType=WindowsRuntime].
+2026-02-12 14:43:50  Notify job=wrap state=Failed sent=True details=The property 'Count' cannot be found on this object. Verify that the property exists.
+2026-02-12 14:47:05  Startup temp cleanup: deleted=0 failed=0
+2026-02-12 14:47:05  Startup profile: in-script=361ms; boot=1836ms; Load-Config=149ms | Apply-UiTheme=42ms | Ensure-Folders=11ms | Startup-TempCleanup (deleted=0 failed=0)=160ms
+2026-02-12 14:47:57  Queue start job=ydlt-sound count=1
+2026-02-12 14:48:07  Queue item failed: https://www.tiktok.com/music/original-sound-7323962678836349702 :: [tiktok:sound] Extracting URL: https://www.tiktok.com/music/original-sound-7323962678836349702
+[download] Downloading playlist: 7323962678836349702
+[tiktok:sound] Playlist 7323962678836349702: Downloading 1 items
+[download] Finished downloading playlist: 7323962678836349702
+ERROR: No working app info is available
+2026-02-12 14:48:07  Queue end job=ydlt-sound success=0 failed=1 skipped=0
+2026-02-12 14:48:07  Toast notification failed: Unable to find type [Windows.UI.Notifications.ToastNotificationManager,Windows.UI.Notifications, ContentType=WindowsRuntime].
+2026-02-12 14:48:09  Notify job=ydlt-sound state=Failed sent=True details=Success=0, Failed=1, Skipped=0, Folder=C:\Users\User\Downloads\DJDownloads\TikToks\TikTok_Sound
+2026-02-12 15:01:27  Startup temp cleanup: deleted=0 failed=0
+2026-02-12 15:01:27  Startup profile: in-script=284ms; boot=1269ms; Load-Config=119ms | Apply-UiTheme=31ms | Ensure-Folders=10ms | Startup-TempCleanup (deleted=0 failed=0)=123ms
+2026-02-12 15:05:13  Startup temp cleanup: deleted=0 failed=0
+2026-02-12 15:05:14  Startup profile: in-script=212ms; boot=1001ms; Load-Config=96ms | Apply-UiTheme=24ms | Ensure-Folders=7ms | Startup-TempCleanup (deleted=0 failed=0)=85ms
+2026-02-12 15:16:00  Startup temp cleanup: deleted=0 failed=0
+2026-02-12 15:16:00  Startup profile: in-script=449ms; boot=1711ms; Load-Config=110ms | Apply-UiTheme=25ms | Ensure-Folders=12ms | Startup-TempCleanup (deleted=0 failed=0)=300ms
+2026-02-12 15:16:05  Queue start job=ydlt count=1
+2026-02-12 15:16:13  Queue end job=ydlt success=1 failed=0 skipped=0
+2026-02-12 15:16:13  Toast notification failed: Unable to find type [Windows.UI.Notifications.ToastNotificationManager,Windows.UI.Notifications, ContentType=WindowsRuntime].
+2026-02-12 15:16:15  Notify job=ydlt state=Completed sent=True details=Success=1, Failed=0, Skipped=0
+2026-02-12 15:18:04  Queue start job=ydlt count=1
+2026-02-12 15:18:14  Queue end job=ydlt success=1 failed=0 skipped=0
+2026-02-12 15:18:14  Toast notification failed: Unable to find type [Windows.UI.Notifications.ToastNotificationManager,Windows.UI.Notifications, ContentType=WindowsRuntime].
+2026-02-12 15:18:15  Notify job=ydlt state=Completed sent=True details=Success=1, Failed=0, Skipped=0
+2026-02-12 15:18:21  Queue start job=ydlt count=1
+2026-02-12 15:18:33  Queue end job=ydlt success=1 failed=0 skipped=0
+2026-02-12 15:18:33  Toast notification failed: Unable to find type [Windows.UI.Notifications.ToastNotificationManager,Windows.UI.Notifications, ContentType=WindowsRuntime].
+2026-02-12 15:18:34  Notify job=ydlt state=Completed sent=True details=Success=1, Failed=0, Skipped=0
+2026-02-12 15:18:56  Queue start job=ydlt count=1
+2026-02-12 15:19:04  Queue end job=ydlt success=1 failed=0 skipped=0
+2026-02-12 15:19:04  Toast notification failed: Unable to find type [Windows.UI.Notifications.ToastNotificationManager,Windows.UI.Notifications, ContentType=WindowsRuntime].
+2026-02-12 15:19:06  Notify job=ydlt state=Completed sent=True details=Success=1, Failed=0, Skipped=0
+2026-02-12 15:25:54  Queue start job=ydlt count=1
+2026-02-12 15:26:01  Queue end job=ydlt success=1 failed=0 skipped=0
+2026-02-12 15:26:01  Toast notification failed: Unable to find type [Windows.UI.Notifications.ToastNotificationManager,Windows.UI.Notifications, ContentType=WindowsRuntime].
+2026-02-12 15:26:02  Notify job=ydlt state=Completed sent=True details=Success=1, Failed=0, Skipped=0
+2026-02-12 15:38:20  Startup temp cleanup: deleted=0 failed=0
+2026-02-12 15:38:20  Startup profile: in-script=210ms; boot=1044ms; Load-Config=94ms | Apply-UiTheme=24ms | Ensure-Folders=7ms | Startup-TempCleanup (deleted=0 failed=0)=85ms
+2026-02-12 15:38:25  Queue start job=ydlq count=1
+2026-02-12 15:39:10  Queue end job=ydlq success=1 failed=0 skipped=0
+2026-02-12 15:39:10  Toast notification failed: Unable to find type [Windows.UI.Notifications.ToastNotificationManager,Windows.UI.Notifications, ContentType=WindowsRuntime].
+2026-02-12 15:39:11  Notify job=ydlq state=Completed sent=True details=Success=1, Failed=0, Skipped=0
+2026-02-12 15:49:21  Queue start job=ydlq count=1
+2026-02-12 15:50:42  Queue end job=ydlq success=1 failed=0 skipped=0
+2026-02-12 15:50:42  Toast notification failed: Unable to find type [Windows.UI.Notifications.ToastNotificationManager,Windows.UI.Notifications, ContentType=WindowsRuntime].
+2026-02-12 15:50:43  Notify job=ydlq state=Completed sent=True details=Success=1, Failed=0, Skipped=0
+2026-02-12 15:50:50  Queue start job=ydlq count=1
+2026-02-12 15:50:59  Queue end job=ydlq success=1 failed=0 skipped=0
+2026-02-12 15:50:59  Toast notification failed: Unable to find type [Windows.UI.Notifications.ToastNotificationManager,Windows.UI.Notifications, ContentType=WindowsRuntime].
+2026-02-12 15:51:01  Notify job=ydlq state=Completed sent=True details=Success=1, Failed=0, Skipped=0
+2026-02-12 15:51:45  Queue start job=ydlq count=1
+2026-02-12 15:52:18  Queue end job=ydlq success=1 failed=0 skipped=0
+2026-02-12 15:52:19  Toast notification failed: Unable to find type [Windows.UI.Notifications.ToastNotificationManager,Windows.UI.Notifications, ContentType=WindowsRuntime].
+2026-02-12 15:52:20  Notify job=ydlq state=Completed sent=True details=Success=1, Failed=0, Skipped=0
+2026-02-12 15:57:50  Startup temp cleanup: deleted=0 failed=0
+2026-02-12 15:57:50  Startup profile: in-script=199ms; boot=993ms; Load-Config=92ms | Apply-UiTheme=24ms | Ensure-Folders=7ms | Startup-TempCleanup (deleted=0 failed=0)=77ms
+2026-02-12 15:57:52  Queue start job=ydlq count=1
+2026-02-12 15:58:37  Queue end job=ydlq success=1 failed=0 skipped=0
+2026-02-12 15:58:38  Toast notification failed: Unable to find type [Windows.UI.Notifications.ToastNotificationManager,Windows.UI.Notifications, ContentType=WindowsRuntime].
+2026-02-12 15:58:40  Notify job=ydlq state=Completed sent=True details=Success=1, Failed=0, Skipped=0
+2026-02-12 16:08:18  Queue start job=ydlq count=1
+2026-02-12 16:08:52  Queue end job=ydlq success=1 failed=0 skipped=0
+2026-02-12 16:08:52  Toast notification failed: Unable to find type [Windows.UI.Notifications.ToastNotificationManager,Windows.UI.Notifications, ContentType=WindowsRuntime].
+2026-02-12 16:08:54  Notify job=ydlq state=Completed sent=True details=Success=1, Failed=0, Skipped=0
+2026-02-12 16:13:58  Queue start job=ydlq count=1
+2026-02-12 16:14:31  Queue end job=ydlq success=1 failed=0 skipped=0
+2026-02-12 16:14:31  Toast notification failed: Unable to find type [Windows.UI.Notifications.ToastNotificationManager,Windows.UI.Notifications, ContentType=WindowsRuntime].
+2026-02-12 16:14:32  Notify job=ydlq state=Completed sent=True details=Success=1, Failed=0, Skipped=0
+2026-02-12 16:15:37  Queue start job=ydlq count=1
+2026-02-12 16:17:39  Queue end job=ydlq success=1 failed=0 skipped=0
+2026-02-12 16:17:39  Toast notification failed: Unable to find type [Windows.UI.Notifications.ToastNotificationManager,Windows.UI.Notifications, ContentType=WindowsRuntime].
+2026-02-12 16:17:40  Notify job=ydlq state=Completed sent=True details=Success=1, Failed=0, Skipped=0
+2026-02-12 16:17:44  Queue start job=ydlq count=1
+2026-02-12 16:18:48  Queue end job=ydlq success=1 failed=0 skipped=0
+2026-02-12 16:18:48  Toast notification failed: Unable to find type [Windows.UI.Notifications.ToastNotificationManager,Windows.UI.Notifications, ContentType=WindowsRuntime].
+2026-02-12 16:18:50  Notify job=ydlq state=Completed sent=True details=Success=1, Failed=0, Skipped=0
+2026-02-12 16:18:56  Queue start job=ydlq count=1
+2026-02-12 16:20:00  Queue end job=ydlq success=1 failed=0 skipped=0
+2026-02-12 16:20:00  Toast notification failed: Unable to find type [Windows.UI.Notifications.ToastNotificationManager,Windows.UI.Notifications, ContentType=WindowsRuntime].
+2026-02-12 16:20:02  Notify job=ydlq state=Completed sent=True details=Success=1, Failed=0, Skipped=0
+2026-02-12 16:29:45  Queue start job=ydlq count=1
+2026-02-12 16:31:04  Queue end job=ydlq success=1 failed=0 skipped=0
+2026-02-12 16:31:04  Toast notification failed: Unable to find type [Windows.UI.Notifications.ToastNotificationManager,Windows.UI.Notifications, ContentType=WindowsRuntime].
+2026-02-12 16:31:06  Notify job=ydlq state=Completed sent=True details=Success=1, Failed=0, Skipped=0
+2026-02-12 16:35:30  Queue start job=ydlq count=1
+2026-02-12 16:36:40  Queue end job=ydlq success=1 failed=0 skipped=0
+2026-02-12 16:36:40  Toast notification failed: Unable to find type [Windows.UI.Notifications.ToastNotificationManager,Windows.UI.Notifications, ContentType=WindowsRuntime].
+2026-02-12 16:36:41  Notify job=ydlq state=Completed sent=True details=Success=1, Failed=0, Skipped=0
+2026-02-12 16:39:13  Queue start job=ydlq count=1
+2026-02-12 16:41:10  Queue end job=ydlq success=1 failed=0 skipped=0
+2026-02-12 16:41:11  Toast notification failed: Unable to find type [Windows.UI.Notifications.ToastNotificationManager,Windows.UI.Notifications, ContentType=WindowsRuntime].
+2026-02-12 16:41:12  Notify job=ydlq state=Completed sent=True details=Success=1, Failed=0, Skipped=0
+2026-02-12 16:43:38  Queue start job=ydlq count=1
+2026-02-12 16:46:24  Queue item failed: https://www.youtube.com/watch?v=B89qMuFAlkI :: [youtube] Extracting URL: https://www.youtube.com/watch?v=B89qMuFAlkI
+[youtube] B89qMuFAlkI: Downloading webpage
+[youtube] B89qMuFAlkI: Downloading android vr player API JSON
+[youtube] B89qMuFAlkI: This video is age-restricted; some formats may be missing without authentication. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+[youtube] B89qMuFAlkI: Downloading web embedded client config
+[youtube] B89qMuFAlkI: Downloading player fd1b5dc8-tv
+[youtube] B89qMuFAlkI: Downloading web embedded player API JSON
+[youtube] B89qMuFAlkI: Downloading web safari player API JSON
+ERROR: [youtube] B89qMuFAlkI: Sign in to confirm your age. This video may be inappropriate for some users. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+2026-02-12 16:46:24  Queue end job=ydlq success=0 failed=1 skipped=0
+2026-02-12 16:46:25  Toast notification failed: Unable to find type [Windows.UI.Notifications.ToastNotificationManager,Windows.UI.Notifications, ContentType=WindowsRuntime].
+2026-02-12 16:46:26  Notify job=ydlq state=Failed sent=True details=Success=0, Failed=1, Skipped=0
+2026-02-12 16:46:28  Queue start job=ydlq count=1
+2026-02-12 16:47:11  Queue end job=ydlq success=1 failed=0 skipped=0
+2026-02-12 16:47:11  Toast notification failed: Unable to find type [Windows.UI.Notifications.ToastNotificationManager,Windows.UI.Notifications, ContentType=WindowsRuntime].
+2026-02-12 16:47:13  Notify job=ydlq state=Completed sent=True details=Success=1, Failed=0, Skipped=0
+2026-02-12 16:50:48  Queue start job=ydlq count=1
+2026-02-12 16:51:00  System.Management.Automation.PropertyNotFoundException: The property 'Count' cannot be found on this object. Verify that the property exists.
+   at System.Management.Automation.ExceptionHandlingOps.CheckActionPreference(FunctionContext funcContext, Exception exception)
+   at System.Management.Automation.Interpreter.ActionCallInstruction`2.Run(InterpretedFrame frame)
+   at System.Management.Automation.Interpreter.EnterTryCatchFinallyInstruction.Run(InterpretedFrame frame)
+   at System.Management.Automation.Interpreter.EnterTryCatchFinallyInstruction.Run(InterpretedFrame frame)
+2026-02-12 16:51:00  Toast notification failed: Unable to find type [Windows.UI.Notifications.ToastNotificationManager,Windows.UI.Notifications, ContentType=WindowsRuntime].
+2026-02-12 16:51:01  Notify job=ydlq state=Failed sent=True details=The property 'Count' cannot be found on this object. Verify that the property exists.
+2026-02-12 16:51:09  System.Management.Automation.PropertyNotFoundException: The property 'Count' cannot be found on this object. Verify that the property exists.
+   at System.Management.Automation.ExceptionHandlingOps.CheckActionPreference(FunctionContext funcContext, Exception exception)
+   at System.Management.Automation.Interpreter.ActionCallInstruction`2.Run(InterpretedFrame frame)
+   at System.Management.Automation.Interpreter.EnterTryCatchFinallyInstruction.Run(InterpretedFrame frame)
+   at System.Management.Automation.Interpreter.EnterTryCatchFinallyInstruction.Run(InterpretedFrame frame)
+2026-02-12 16:51:09  Toast notification failed: Unable to find type [Windows.UI.Notifications.ToastNotificationManager,Windows.UI.Notifications, ContentType=WindowsRuntime].
+2026-02-12 16:51:10  Notify job=ydlc state=Failed sent=True details=The property 'Count' cannot be found on this object. Verify that the property exists.
+2026-02-12 17:03:48  Startup temp cleanup: deleted=0 failed=0
+2026-02-12 17:03:48  Startup profile: in-script=196ms; boot=950ms; Load-Config=85ms | Apply-UiTheme=22ms | Ensure-Folders=7ms | Startup-TempCleanup (deleted=0 failed=0)=81ms
+2026-02-12 17:03:57  Queue start job=ydlq count=1
+2026-02-12 17:04:11  System.Management.Automation.PropertyNotFoundException: The property 'Count' cannot be found on this object. Verify that the property exists.
+   at System.Management.Automation.ExceptionHandlingOps.CheckActionPreference(FunctionContext funcContext, Exception exception)
+   at System.Management.Automation.Interpreter.ActionCallInstruction`2.Run(InterpretedFrame frame)
+   at System.Management.Automation.Interpreter.EnterTryCatchFinallyInstruction.Run(InterpretedFrame frame)
+   at System.Management.Automation.Interpreter.EnterTryCatchFinallyInstruction.Run(InterpretedFrame frame)
+2026-02-12 17:04:11  Toast notification failed: Unable to find type [Windows.UI.Notifications.ToastNotificationManager,Windows.UI.Notifications, ContentType=WindowsRuntime].
+2026-02-12 17:04:12  Notify job=ydlq state=Failed sent=True details=The property 'Count' cannot be found on this object. Verify that the property exists.
+2026-02-12 17:07:33  Startup temp cleanup: deleted=0 failed=0
+2026-02-12 17:07:33  Startup profile: in-script=194ms; boot=903ms; Load-Config=84ms | Apply-UiTheme=24ms | Ensure-Folders=7ms | Startup-TempCleanup (deleted=0 failed=0)=78ms
+2026-02-12 17:07:38  Queue start job=ydlq count=1
+2026-02-12 17:07:45  Queue cancelled. Cleanup deleted=0 failed=0
+2026-02-12 17:07:45  Queue end job=ydlq success=0 failed=0 skipped=0
+2026-02-12 17:07:50  Queue start job=ydlq count=1
+2026-02-12 17:08:28  System.Management.Automation.PropertyNotFoundException: The property 'Count' cannot be found on this object. Verify that the property exists.
+   at System.Management.Automation.ExceptionHandlingOps.CheckActionPreference(FunctionContext funcContext, Exception exception)
+   at System.Management.Automation.Interpreter.ActionCallInstruction`2.Run(InterpretedFrame frame)
+   at System.Management.Automation.Interpreter.EnterTryCatchFinallyInstruction.Run(InterpretedFrame frame)
+   at System.Management.Automation.Interpreter.EnterTryCatchFinallyInstruction.Run(InterpretedFrame frame)
+2026-02-12 17:08:28  Toast notification failed: Unable to find type [Windows.UI.Notifications.ToastNotificationManager,Windows.UI.Notifications, ContentType=WindowsRuntime].
+2026-02-12 17:08:29  Notify job=ydlq state=Failed sent=True details=The property 'Count' cannot be found on this object. Verify that the property exists.
+2026-02-12 17:15:38  System.Management.Automation.PropertyNotFoundException: The property 'Count' cannot be found on this object. Verify that the property exists.
+   at System.Management.Automation.ExceptionHandlingOps.CheckActionPreference(FunctionContext funcContext, Exception exception)
+   at System.Management.Automation.Interpreter.ActionCallInstruction`2.Run(InterpretedFrame frame)
+   at System.Management.Automation.Interpreter.EnterTryCatchFinallyInstruction.Run(InterpretedFrame frame)
+   at System.Management.Automation.Interpreter.EnterTryCatchFinallyInstruction.Run(InterpretedFrame frame)
+2026-02-12 17:15:38  Toast notification failed: Unable to find type [Windows.UI.Notifications.ToastNotificationManager,Windows.UI.Notifications, ContentType=WindowsRuntime].
+2026-02-12 17:15:39  Notify job=ydlc state=Failed sent=True details=The property 'Count' cannot be found on this object. Verify that the property exists.
+2026-02-12 19:07:18  Startup temp cleanup: deleted=0 failed=0
+2026-02-12 19:07:18  Startup profile: in-script=306ms; boot=1376ms; Load-Config=126ms | Apply-UiTheme=32ms | Ensure-Folders=10ms | Startup-TempCleanup (deleted=0 failed=0)=138ms
+2026-02-12 19:07:29  Queue start job=ydlq count=1
+2026-02-12 19:07:51  Queue item failed: https://www.youtube.com/watch?v=B89qMuFAlkI :: [youtube] Extracting URL: https://www.youtube.com/watch?v=B89qMuFAlkI
+[youtube] B89qMuFAlkI: Downloading webpage
+[youtube] B89qMuFAlkI: Downloading android vr player API JSON
+[youtube] B89qMuFAlkI: This video is age-restricted; some formats may be missing without authentication. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+[youtube] B89qMuFAlkI: Downloading web embedded client config
+[youtube] B89qMuFAlkI: Downloading player 1798f86c-tv
+[youtube] B89qMuFAlkI: Downloading web embedded player API JSON
+[youtube] B89qMuFAlkI: Downloading web safari player API JSON
+ERROR: [youtube] B89qMuFAlkI: Sign in to confirm your age. This video may be inappropriate for some users. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+2026-02-12 19:07:51  Queue end job=ydlq success=0 failed=1 skipped=0
+2026-02-12 19:07:52  Toast notification failed: Unable to find type [Windows.UI.Notifications.ToastNotificationManager,Windows.UI.Notifications, ContentType=WindowsRuntime].
+2026-02-12 19:07:53  Notify job=ydlq state=Failed sent=True details=Success=0, Failed=1, Skipped=0
+2026-02-12 19:08:08  Queue start job=ydlc count=1
+2026-02-12 19:08:14  Queue item failed: https://www.youtube.com/watch?v=B89qMuFAlkI :: [youtube] Extracting URL: https://www.youtube.com/watch?v=B89qMuFAlkI
+[youtube] B89qMuFAlkI: Downloading webpage
+[youtube] B89qMuFAlkI: Downloading android vr player API JSON
+[youtube] B89qMuFAlkI: This video is age-restricted; some formats may be missing without authentication. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+[youtube] B89qMuFAlkI: Downloading web embedded client config
+[youtube] B89qMuFAlkI: Downloading player 1798f86c-tv
+[youtube] B89qMuFAlkI: Downloading web embedded player API JSON
+[youtube] B89qMuFAlkI: Downloading web safari player API JSON
+ERROR: [youtube] B89qMuFAlkI: Sign in to confirm your age. This video may be inappropriate for some users. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+2026-02-12 19:08:14  Queue end job=ydlc success=0 failed=1 skipped=0
+2026-02-12 19:08:14  Toast notification failed: Unable to find type [Windows.UI.Notifications.ToastNotificationManager,Windows.UI.Notifications, ContentType=WindowsRuntime].
+2026-02-12 19:08:15  Notify job=ydlc state=Failed sent=True details=Success=0, Failed=1, Skipped=0
+2026-02-12 19:11:21  Startup temp cleanup: deleted=0 failed=0
+2026-02-12 19:11:21  Startup profile: in-script=260ms; boot=1172ms; Load-Config=112ms | Apply-UiTheme=27ms | Ensure-Folders=9ms | Startup-TempCleanup (deleted=0 failed=0)=111ms
+2026-02-12 19:11:30  Queue start job=ydlc count=1
+2026-02-12 19:11:31  [DEBUG][cookies] resolved cookies path: C:\Users\User\Desktop\DJ_TOOLKIT_V2_PACK\cookies.txt
+2026-02-12 19:11:31  [DEBUG][cookies] Test-Path: True
+2026-02-12 19:11:31  [DEBUG][cookies] yt-dlp executable: C:\Users\User\AppData\Local\Microsoft\WinGet\Packages\yt-dlp.yt-dlp_Microsoft.Winget.Source_8wekyb3d8bbwe\yt-dlp.exe
+2026-02-12 19:11:31  [DEBUG][cookies] command: C:\Users\User\AppData\Local\Microsoft\WinGet\Packages\yt-dlp.yt-dlp_Microsoft.Winget.Source_8wekyb3d8bbwe\yt-dlp.exe --no-warnings --no-overwrites --cookies C:\Users\User\Desktop\DJ_TOOLKIT_V2_PACK\cookies.txt --paths C:\Users\User\Downloads\DJDownloads\MP4 -o "%(title)s [%(id)s].%(ext)s" -f (299+140)/(137+140)/bv*[ext=mp4]+ba[ext=m4a] --merge-output-format mp4 --no-playlist https://www.youtube.com/watch?v=B89qMuFAlkI
+2026-02-12 19:11:38  [DEBUG][cookies] exitCode=1 | stdout_tail=8 | stderr_tail=1
+2026-02-12 19:11:38  [DEBUG][cookies][stdout last 50]
+2026-02-12 19:11:38  [DEBUG][cookies][stdout] [youtube] Extracting URL: https://www.youtube.com/watch?v=B89qMuFAlkI
+2026-02-12 19:11:38  [DEBUG][cookies][stdout] [youtube] B89qMuFAlkI: Downloading webpage
+2026-02-12 19:11:38  [DEBUG][cookies][stdout] [youtube] B89qMuFAlkI: Downloading android vr player API JSON
+2026-02-12 19:11:38  [DEBUG][cookies][stdout] [youtube] B89qMuFAlkI: This video is age-restricted; some formats may be missing without authentication. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+2026-02-12 19:11:38  [DEBUG][cookies][stdout] [youtube] B89qMuFAlkI: Downloading web embedded client config
+2026-02-12 19:11:38  [DEBUG][cookies][stdout] [youtube] B89qMuFAlkI: Downloading player 1798f86c-tv
+2026-02-12 19:11:38  [DEBUG][cookies][stdout] [youtube] B89qMuFAlkI: Downloading web embedded player API JSON
+2026-02-12 19:11:38  [DEBUG][cookies][stdout] [youtube] B89qMuFAlkI: Downloading web safari player API JSON
+2026-02-12 19:11:38  [DEBUG][cookies][stderr last 50]
+2026-02-12 19:11:38  [DEBUG][cookies][stderr] ERROR: [youtube] B89qMuFAlkI: Sign in to confirm your age. This video may be inappropriate for some users. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+2026-02-12 19:11:38  Queue item failed: https://www.youtube.com/watch?v=B89qMuFAlkI :: [youtube] Extracting URL: https://www.youtube.com/watch?v=B89qMuFAlkI
+[youtube] B89qMuFAlkI: Downloading webpage
+[youtube] B89qMuFAlkI: Downloading android vr player API JSON
+[youtube] B89qMuFAlkI: This video is age-restricted; some formats may be missing without authentication. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+[youtube] B89qMuFAlkI: Downloading web embedded client config
+[youtube] B89qMuFAlkI: Downloading player 1798f86c-tv
+[youtube] B89qMuFAlkI: Downloading web embedded player API JSON
+[youtube] B89qMuFAlkI: Downloading web safari player API JSON
+ERROR: [youtube] B89qMuFAlkI: Sign in to confirm your age. This video may be inappropriate for some users. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+2026-02-12 19:11:38  Queue end job=ydlc success=0 failed=1 skipped=0
+2026-02-12 19:11:38  Toast notification failed: Unable to find type [Windows.UI.Notifications.ToastNotificationManager,Windows.UI.Notifications, ContentType=WindowsRuntime].
+2026-02-12 19:11:40  Notify job=ydlc state=Failed sent=True details=Success=0, Failed=1, Skipped=0
+2026-02-12 19:11:54  Queue start job=ydlc count=1
+2026-02-12 19:11:54  [DEBUG][cookies] resolved cookies path: C:\Users\User\Desktop\DJ_TOOLKIT_V2_PACK\cookies.txt
+2026-02-12 19:11:54  [DEBUG][cookies] Test-Path: True
+2026-02-12 19:11:54  [DEBUG][cookies] yt-dlp executable: C:\Users\User\AppData\Local\Microsoft\WinGet\Packages\yt-dlp.yt-dlp_Microsoft.Winget.Source_8wekyb3d8bbwe\yt-dlp.exe
+2026-02-12 19:11:54  [DEBUG][cookies] command: C:\Users\User\AppData\Local\Microsoft\WinGet\Packages\yt-dlp.yt-dlp_Microsoft.Winget.Source_8wekyb3d8bbwe\yt-dlp.exe --no-warnings --no-overwrites --cookies C:\Users\User\Desktop\DJ_TOOLKIT_V2_PACK\cookies.txt --paths C:\Users\User\Downloads\DJDownloads\MP4 -o "%(title)s [%(id)s].%(ext)s" -f (299+140)/(137+140)/bv*[ext=mp4]+ba[ext=m4a] --merge-output-format mp4 --no-playlist https://www.youtube.com/watch?v=B89qMuFAlkI
+2026-02-12 19:12:01  [DEBUG][cookies] exitCode=1 | stdout_tail=8 | stderr_tail=1
+2026-02-12 19:12:01  [DEBUG][cookies][stdout last 50]
+2026-02-12 19:12:01  [DEBUG][cookies][stdout] [youtube] Extracting URL: https://www.youtube.com/watch?v=B89qMuFAlkI
+2026-02-12 19:12:01  [DEBUG][cookies][stdout] [youtube] B89qMuFAlkI: Downloading webpage
+2026-02-12 19:12:02  [DEBUG][cookies][stdout] [youtube] B89qMuFAlkI: Downloading android vr player API JSON
+2026-02-12 19:12:02  [DEBUG][cookies][stdout] [youtube] B89qMuFAlkI: This video is age-restricted; some formats may be missing without authentication. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+2026-02-12 19:12:02  [DEBUG][cookies][stdout] [youtube] B89qMuFAlkI: Downloading web embedded client config
+2026-02-12 19:12:02  [DEBUG][cookies][stdout] [youtube] B89qMuFAlkI: Downloading player 1798f86c-tv
+2026-02-12 19:12:02  [DEBUG][cookies][stdout] [youtube] B89qMuFAlkI: Downloading web embedded player API JSON
+2026-02-12 19:12:02  [DEBUG][cookies][stdout] [youtube] B89qMuFAlkI: Downloading web safari player API JSON
+2026-02-12 19:12:02  [DEBUG][cookies][stderr last 50]
+2026-02-12 19:12:02  [DEBUG][cookies][stderr] ERROR: [youtube] B89qMuFAlkI: Sign in to confirm your age. This video may be inappropriate for some users. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+2026-02-12 19:12:02  Queue item failed: https://www.youtube.com/watch?v=B89qMuFAlkI :: [youtube] Extracting URL: https://www.youtube.com/watch?v=B89qMuFAlkI
+[youtube] B89qMuFAlkI: Downloading webpage
+[youtube] B89qMuFAlkI: Downloading android vr player API JSON
+[youtube] B89qMuFAlkI: This video is age-restricted; some formats may be missing without authentication. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+[youtube] B89qMuFAlkI: Downloading web embedded client config
+[youtube] B89qMuFAlkI: Downloading player 1798f86c-tv
+[youtube] B89qMuFAlkI: Downloading web embedded player API JSON
+[youtube] B89qMuFAlkI: Downloading web safari player API JSON
+ERROR: [youtube] B89qMuFAlkI: Sign in to confirm your age. This video may be inappropriate for some users. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+2026-02-12 19:12:02  Queue end job=ydlc success=0 failed=1 skipped=0
+2026-02-12 19:12:02  Toast notification failed: Unable to find type [Windows.UI.Notifications.ToastNotificationManager,Windows.UI.Notifications, ContentType=WindowsRuntime].
+2026-02-12 19:12:03  Notify job=ydlc state=Failed sent=True details=Success=0, Failed=1, Skipped=0
+2026-02-12 19:16:30  Queue start job=ydlc count=1
+2026-02-12 19:16:30  [DEBUG][cookies] resolved cookies path: C:\Users\User\Desktop\DJ_TOOLKIT_V2_PACK\cookies.txt
+2026-02-12 19:16:30  [DEBUG][cookies] Test-Path: True
+2026-02-12 19:16:30  [DEBUG][cookies] yt-dlp executable: C:\Users\User\AppData\Local\Microsoft\WinGet\Packages\yt-dlp.yt-dlp_Microsoft.Winget.Source_8wekyb3d8bbwe\yt-dlp.exe
+2026-02-12 19:16:30  [DEBUG][cookies] command: C:\Users\User\AppData\Local\Microsoft\WinGet\Packages\yt-dlp.yt-dlp_Microsoft.Winget.Source_8wekyb3d8bbwe\yt-dlp.exe --no-warnings --no-overwrites --cookies C:\Users\User\Desktop\DJ_TOOLKIT_V2_PACK\cookies.txt --paths C:\Users\User\Downloads\DJDownloads\MP4 -o "%(title)s [%(id)s].%(ext)s" -f (299+140)/(137+140)/bv*[ext=mp4]+ba[ext=m4a] --merge-output-format mp4 --no-playlist https://www.youtube.com/watch?v=B89qMuFAlkI
+2026-02-12 19:16:45  [DEBUG][cookies] exitCode=1 | stdout_tail=8 | stderr_tail=1
+2026-02-12 19:16:45  [DEBUG][cookies][stdout last 50]
+2026-02-12 19:16:45  [DEBUG][cookies][stdout] [youtube] Extracting URL: https://www.youtube.com/watch?v=B89qMuFAlkI
+2026-02-12 19:16:46  [DEBUG][cookies][stdout] [youtube] B89qMuFAlkI: Downloading webpage
+2026-02-12 19:16:46  [DEBUG][cookies][stdout] [youtube] B89qMuFAlkI: Downloading android vr player API JSON
+2026-02-12 19:16:46  [DEBUG][cookies][stdout] [youtube] B89qMuFAlkI: This video is age-restricted; some formats may be missing without authentication. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+2026-02-12 19:16:46  [DEBUG][cookies][stdout] [youtube] B89qMuFAlkI: Downloading web embedded client config
+2026-02-12 19:16:46  [DEBUG][cookies][stdout] [youtube] B89qMuFAlkI: Downloading player 1798f86c-tv
+2026-02-12 19:16:46  [DEBUG][cookies][stdout] [youtube] B89qMuFAlkI: Downloading web embedded player API JSON
+2026-02-12 19:16:46  [DEBUG][cookies][stdout] [youtube] B89qMuFAlkI: Downloading web safari player API JSON
+2026-02-12 19:16:46  [DEBUG][cookies][stderr last 50]
+2026-02-12 19:16:46  [DEBUG][cookies][stderr] ERROR: [youtube] B89qMuFAlkI: Sign in to confirm your age. This video may be inappropriate for some users. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+2026-02-12 19:16:46  Queue item failed: https://www.youtube.com/watch?v=B89qMuFAlkI :: [youtube] Extracting URL: https://www.youtube.com/watch?v=B89qMuFAlkI
+[youtube] B89qMuFAlkI: Downloading webpage
+[youtube] B89qMuFAlkI: Downloading android vr player API JSON
+[youtube] B89qMuFAlkI: This video is age-restricted; some formats may be missing without authentication. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+[youtube] B89qMuFAlkI: Downloading web embedded client config
+[youtube] B89qMuFAlkI: Downloading player 1798f86c-tv
+[youtube] B89qMuFAlkI: Downloading web embedded player API JSON
+[youtube] B89qMuFAlkI: Downloading web safari player API JSON
+ERROR: [youtube] B89qMuFAlkI: Sign in to confirm your age. This video may be inappropriate for some users. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+2026-02-12 19:16:46  Queue end job=ydlc success=0 failed=1 skipped=0
+2026-02-12 19:16:46  Toast notification failed: Unable to find type [Windows.UI.Notifications.ToastNotificationManager,Windows.UI.Notifications, ContentType=WindowsRuntime].
+2026-02-12 19:16:47  Notify job=ydlc state=Failed sent=True details=Success=0, Failed=1, Skipped=0
+2026-02-12 19:18:55  Startup temp cleanup: deleted=0 failed=0
+2026-02-12 19:18:55  Startup profile: in-script=232ms; boot=1199ms; Load-Config=98ms | Apply-UiTheme=26ms | Ensure-Folders=8ms | Startup-TempCleanup (deleted=0 failed=0)=99ms
+2026-02-12 19:19:27  System.Management.Automation.PropertyNotFoundException: The property 'Count' cannot be found on this object. Verify that the property exists.
+   at System.Management.Automation.ExceptionHandlingOps.CheckActionPreference(FunctionContext funcContext, Exception exception)
+   at System.Management.Automation.Interpreter.ActionCallInstruction`2.Run(InterpretedFrame frame)
+   at System.Management.Automation.Interpreter.EnterTryCatchFinallyInstruction.Run(InterpretedFrame frame)
+   at System.Management.Automation.Interpreter.EnterTryCatchFinallyInstruction.Run(InterpretedFrame frame)
+2026-02-12 19:19:27  Toast notification failed: Unable to find type [Windows.UI.Notifications.ToastNotificationManager,Windows.UI.Notifications, ContentType=WindowsRuntime].
+2026-02-12 19:19:28  Notify job=ydlc state=Failed sent=True details=The property 'Count' cannot be found on this object. Verify that the property exists.
+2026-02-12 19:22:51  System.Management.Automation.PropertyNotFoundException: The property 'Count' cannot be found on this object. Verify that the property exists.
+   at System.Management.Automation.ExceptionHandlingOps.CheckActionPreference(FunctionContext funcContext, Exception exception)
+   at System.Management.Automation.Interpreter.ActionCallInstruction`2.Run(InterpretedFrame frame)
+   at System.Management.Automation.Interpreter.EnterTryCatchFinallyInstruction.Run(InterpretedFrame frame)
+   at System.Management.Automation.Interpreter.EnterTryCatchFinallyInstruction.Run(InterpretedFrame frame)
+2026-02-12 19:22:51  Toast notification failed: Unable to find type [Windows.UI.Notifications.ToastNotificationManager,Windows.UI.Notifications, ContentType=WindowsRuntime].
+2026-02-12 19:22:52  Notify job=ydlc state=Failed sent=True details=The property 'Count' cannot be found on this object. Verify that the property exists.
+2026-02-12 19:26:08  Startup temp cleanup: deleted=0 failed=0
+2026-02-12 19:26:08  Startup profile: in-script=218ms; boot=1073ms; Load-Config=111ms | Apply-UiTheme=27ms | Ensure-Folders=29ms | Startup-TempCleanup (deleted=0 failed=0)=50ms
+2026-02-12 19:26:16  System.Management.Automation.PropertyNotFoundException: The property 'Count' cannot be found on this object. Verify that the property exists.
+   at System.Management.Automation.ExceptionHandlingOps.CheckActionPreference(FunctionContext funcContext, Exception exception)
+   at System.Management.Automation.Interpreter.ActionCallInstruction`2.Run(InterpretedFrame frame)
+   at System.Management.Automation.Interpreter.EnterTryCatchFinallyInstruction.Run(InterpretedFrame frame)
+   at System.Management.Automation.Interpreter.EnterTryCatchFinallyInstruction.Run(InterpretedFrame frame)
+2026-02-12 19:26:16  Toast notification failed: Unable to find type [Windows.UI.Notifications.ToastNotificationManager,Windows.UI.Notifications, ContentType=WindowsRuntime].
+2026-02-12 19:26:18  Notify job=ydlc state=Failed sent=True details=The property 'Count' cannot be found on this object. Verify that the property exists.
+2026-02-12 19:28:36  Startup temp cleanup: deleted=0 failed=0
+2026-02-12 19:28:36  Startup profile: in-script=344ms; boot=1765ms; Load-Config=193ms | Apply-UiTheme=33ms | Ensure-Folders=11ms | Startup-TempCleanup (deleted=0 failed=0)=107ms
+2026-02-12 19:31:53  Startup temp cleanup: deleted=0 failed=0
+2026-02-12 19:31:53  Startup profile: in-script=214ms; boot=997ms; Load-Config=100ms | Apply-UiTheme=25ms | Ensure-Folders=7ms | Startup-TempCleanup (deleted=0 failed=0)=82ms
+2026-02-12 19:35:24  Queue start job=ydlc count=1
+2026-02-12 19:35:24  [DEBUG][cookies] resolved cookies path: C:\Users\User\Desktop\1cookies.txt
+2026-02-12 19:35:24  [DEBUG][cookies] Test-Path: True
+2026-02-12 19:35:24  [DEBUG][cookies] yt-dlp executable: C:\Users\User\AppData\Local\Microsoft\WinGet\Packages\yt-dlp.yt-dlp_Microsoft.Winget.Source_8wekyb3d8bbwe\yt-dlp.exe
+2026-02-12 19:35:24  [DEBUG][cookies] command: C:\Users\User\AppData\Local\Microsoft\WinGet\Packages\yt-dlp.yt-dlp_Microsoft.Winget.Source_8wekyb3d8bbwe\yt-dlp.exe --no-warnings --no-overwrites --cookies C:\Users\User\Desktop\1cookies.txt --paths C:\Users\User\Downloads\DJDownloads\MP4 -o "%(title)s [%(id)s].%(ext)s" -f (299+140)/(137+140)/bv*[ext=mp4]+ba[ext=m4a] --merge-output-format mp4 --no-playlist https://www.youtube.com/watch?v=B89qMuFAlkI
+2026-02-12 19:35:42  [DEBUG][cookies] exitCode=0 | stdout_tail=50 | stderr_tail=0
+2026-02-12 19:35:42  [DEBUG][cookies][stdout last 50]
+2026-02-12 19:35:43  [DEBUG][cookies][stdout] [youtube] [jsc:deno] Solving JS challenges using deno
+2026-02-12 19:35:43  [DEBUG][cookies][stdout] [youtube] B89qMuFAlkI: Downloading m3u8 information
+2026-02-12 19:35:43  [DEBUG][cookies][stdout] [info] B89qMuFAlkI: Downloading 1 format(s): 137+140
+2026-02-12 19:35:43  [DEBUG][cookies][stdout] [download] Destination: C:\Users\User\Downloads\DJDownloads\MP4\Dancehall,Demarco-Tek Yuh Time [B89qMuFAlkI].f137.mp4
+2026-02-12 19:35:43  [DEBUG][cookies][stdout] 
+2026-02-12 19:35:43  [DEBUG][cookies][stdout] [download]   0.0% of   14.40MiB at   62.46KiB/s ETA 03:56
+2026-02-12 19:35:43  [DEBUG][cookies][stdout] [download]   0.0% of   14.40MiB at  187.39KiB/s ETA 01:18
+2026-02-12 19:35:43  [DEBUG][cookies][stdout] [download]   0.0% of   14.40MiB at  388.57KiB/s ETA 00:37
+2026-02-12 19:35:43  [DEBUG][cookies][stdout] [download]   0.1% of   14.40MiB at  832.64KiB/s ETA 00:17
+2026-02-12 19:35:43  [DEBUG][cookies][stdout] [download]   0.2% of   14.40MiB at  462.15KiB/s ETA 00:31
+2026-02-12 19:35:43  [DEBUG][cookies][stdout] [download]   0.4% of   14.40MiB at  553.45KiB/s ETA 00:26
+2026-02-12 19:35:43  [DEBUG][cookies][stdout] [download]   0.9% of   14.40MiB at  715.14KiB/s ETA 00:20
+2026-02-12 19:35:43  [DEBUG][cookies][stdout] [download]   1.7% of   14.40MiB at    1.03MiB/s ETA 00:13
+2026-02-12 19:35:43  [DEBUG][cookies][stdout] [download]   3.5% of   14.40MiB at    1.56MiB/s ETA 00:08
+2026-02-12 19:35:43  [DEBUG][cookies][stdout] [download]   6.9% of   14.40MiB at    1.45MiB/s ETA 00:09
+2026-02-12 19:35:43  [DEBUG][cookies][stdout] [download]  13.9% of   14.40MiB at    2.12MiB/s ETA 00:05
+2026-02-12 19:35:43  [DEBUG][cookies][stdout] [download]  27.8% of   14.40MiB at    2.24MiB/s ETA 00:04
+2026-02-12 19:35:43  [DEBUG][cookies][stdout] [download]  44.2% of   14.40MiB at    2.11MiB/s ETA 00:03
+2026-02-12 19:35:43  [DEBUG][cookies][stdout] [download]  57.6% of   14.40MiB at    2.08MiB/s ETA 00:02
+2026-02-12 19:35:43  [DEBUG][cookies][stdout] [download]  68.8% of   14.40MiB at    1.81MiB/s ETA 00:02
+2026-02-12 19:35:43  [DEBUG][cookies][stdout] [download]  68.8% of   14.40MiB at   61.42KiB/s ETA 01:14
+2026-02-12 19:35:43  [DEBUG][cookies][stdout] [download]  68.8% of   14.40MiB at  184.27KiB/s ETA 00:24
+2026-02-12 19:35:43  [DEBUG][cookies][stdout] [download]  68.8% of   14.40MiB at  321.45KiB/s ETA 00:14
+2026-02-12 19:35:43  [DEBUG][cookies][stdout] [download]  68.9% of   14.40MiB at  688.83KiB/s ETA 00:06
+2026-02-12 19:35:43  [DEBUG][cookies][stdout] [download]  69.0% of   14.40MiB at  971.06KiB/s ETA 00:04
+2026-02-12 19:35:43  [DEBUG][cookies][stdout] [download]  69.2% of   14.40MiB at  986.17KiB/s ETA 00:04
+2026-02-12 19:35:43  [DEBUG][cookies][stdout] [download]  69.6% of   14.40MiB at  999.73KiB/s ETA 00:04
+2026-02-12 19:35:43  [DEBUG][cookies][stdout] [download]  70.5% of   14.40MiB at  420.64KiB/s ETA 00:10
+2026-02-12 19:35:44  [DEBUG][cookies][stdout] [download]  72.2% of   14.40MiB at  722.01KiB/s ETA 00:05
+2026-02-12 19:35:44  [DEBUG][cookies][stdout] [download]  75.7% of   14.40MiB at    1.07MiB/s ETA 00:03
+2026-02-12 19:35:44  [DEBUG][cookies][stdout] [download]  82.6% of   14.40MiB at    1.46MiB/s ETA 00:01
+2026-02-12 19:35:44  [DEBUG][cookies][stdout] [download]  96.5% of   14.40MiB at    1.87MiB/s ETA 00:00
+2026-02-12 19:35:44  [DEBUG][cookies][stdout] [download] 100.0% of   14.40MiB at    1.89MiB/s ETA 00:00
+2026-02-12 19:35:44  [DEBUG][cookies][stdout] [download] 100% of   14.40MiB in 00:00:08 at 1.75MiB/s   
+2026-02-12 19:35:44  [DEBUG][cookies][stdout] [download] Destination: C:\Users\User\Downloads\DJDownloads\MP4\Dancehall,Demarco-Tek Yuh Time [B89qMuFAlkI].f140.m4a
+2026-02-12 19:35:44  [DEBUG][cookies][stdout] 
+2026-02-12 19:35:44  [DEBUG][cookies][stdout] [download]   0.1% of  960.25KiB at  Unknown B/s ETA Unknown
+2026-02-12 19:35:44  [DEBUG][cookies][stdout] [download]   0.3% of  960.25KiB at  Unknown B/s ETA Unknown
+2026-02-12 19:35:44  [DEBUG][cookies][stdout] [download]   0.7% of  960.25KiB at  571.68KiB/s ETA 00:01  
+2026-02-12 19:35:44  [DEBUG][cookies][stdout] [download]   1.6% of  960.25KiB at    1.20MiB/s ETA 00:00
+2026-02-12 19:35:44  [DEBUG][cookies][stdout] [download]   3.2% of  960.25KiB at    1.93MiB/s ETA 00:00
+2026-02-12 19:35:44  [DEBUG][cookies][stdout] [download]   6.6% of  960.25KiB at    3.93MiB/s ETA 00:00
+2026-02-12 19:35:44  [DEBUG][cookies][stdout] [download]  13.2% of  960.25KiB at    7.92MiB/s ETA 00:00
+2026-02-12 19:35:44  [DEBUG][cookies][stdout] [download]  26.6% of  960.25KiB at    7.93MiB/s ETA 00:00
+2026-02-12 19:35:44  [DEBUG][cookies][stdout] [download]  53.2% of  960.25KiB at    3.50MiB/s ETA 00:00
+2026-02-12 19:35:44  [DEBUG][cookies][stdout] [download] 100.0% of  960.25KiB at    3.04MiB/s ETA 00:00
+2026-02-12 19:35:44  [DEBUG][cookies][stdout] [download] 100% of  960.25KiB in 00:00:00 at 1.15MiB/s   
+2026-02-12 19:35:44  [DEBUG][cookies][stdout] [Merger] Merging formats into "C:\Users\User\Downloads\DJDownloads\MP4\Dancehall,Demarco-Tek Yuh Time [B89qMuFAlkI].mp4"
+2026-02-12 19:35:44  [DEBUG][cookies][stdout] Deleting original file C:\Users\User\Downloads\DJDownloads\MP4\Dancehall,Demarco-Tek Yuh Time [B89qMuFAlkI].f137.mp4 (pass -k to keep)
+2026-02-12 19:35:44  [DEBUG][cookies][stdout] Deleting original file C:\Users\User\Downloads\DJDownloads\MP4\Dancehall,Demarco-Tek Yuh Time [B89qMuFAlkI].f140.m4a (pass -k to keep)
+2026-02-12 19:35:44  Queue end job=ydlc success=1 failed=0 skipped=0
+2026-02-12 19:35:44  Toast notification failed: Unable to find type [Windows.UI.Notifications.ToastNotificationManager,Windows.UI.Notifications, ContentType=WindowsRuntime].
+2026-02-12 19:35:46  Notify job=ydlc state=Completed sent=True details=Success=1, Failed=0, Skipped=0
+2026-02-12 19:43:15  Startup temp cleanup: deleted=0 failed=0
+2026-02-12 19:43:15  Startup profile: in-script=352ms; boot=2264ms; Load-Config=166ms | Apply-UiTheme=38ms | Ensure-Folders=13ms | Startup-TempCleanup (deleted=0 failed=0)=135ms
+2026-02-12 19:45:42  Startup temp cleanup: deleted=0 failed=0
+2026-02-12 19:45:42  Startup profile: in-script=217ms; boot=1038ms; Load-Config=96ms | Apply-UiTheme=26ms | Ensure-Folders=8ms | Startup-TempCleanup (deleted=0 failed=0)=88ms
+2026-02-12 19:48:10  Startup temp cleanup: deleted=0 failed=0
+2026-02-12 19:48:10  Startup profile: in-script=219ms; boot=1131ms; Load-Config=98ms | Apply-UiTheme=25ms | Ensure-Folders=7ms | Startup-TempCleanup (deleted=0 failed=0)=89ms
+2026-02-12 19:50:38  Startup temp cleanup: deleted=0 failed=0
+2026-02-12 19:50:38  Startup profile: in-script=212ms; boot=1008ms; Load-Config=96ms | Apply-UiTheme=25ms | Ensure-Folders=7ms | Startup-TempCleanup (deleted=0 failed=0)=83ms
+2026-02-12 19:55:16  Startup temp cleanup: deleted=0 failed=0
+2026-02-12 19:55:16  Startup profile: in-script=240ms; boot=1610ms; Load-Config=113ms | Apply-UiTheme=27ms | Ensure-Folders=8ms | Startup-TempCleanup (deleted=0 failed=0)=92ms
+2026-02-12 19:58:39  Startup temp cleanup: deleted=0 failed=0
+2026-02-12 19:58:39  Startup profile: in-script=222ms; boot=1032ms; Load-Config=103ms | Apply-UiTheme=26ms | Ensure-Folders=8ms | Startup-TempCleanup (deleted=0 failed=0)=85ms
+2026-02-12 20:01:23  Startup temp cleanup: deleted=0 failed=0
+2026-02-12 20:01:23  Startup profile: in-script=231ms; boot=1042ms; Load-Config=100ms | Apply-UiTheme=28ms | Ensure-Folders=9ms | Startup-TempCleanup (deleted=0 failed=0)=94ms
+2026-02-12 20:02:00  Startup temp cleanup: deleted=0 failed=0
+2026-02-12 20:02:00  Startup profile: in-script=210ms; boot=1106ms; Load-Config=94ms | Apply-UiTheme=25ms | Ensure-Folders=7ms | Startup-TempCleanup (deleted=0 failed=0)=84ms
+2026-02-12 20:04:41  Startup temp cleanup: deleted=0 failed=0
+2026-02-12 20:04:41  Startup profile: in-script=302ms; boot=1596ms; Load-Config=108ms | Apply-UiTheme=31ms | Ensure-Folders=16ms | Startup-TempCleanup (deleted=0 failed=0)=147ms
+2026-02-12 20:04:49  Startup temp cleanup: deleted=0 failed=0
+2026-02-12 20:04:49  Startup profile: in-script=227ms; boot=1033ms; Load-Config=94ms | Apply-UiTheme=25ms | Ensure-Folders=7ms | Startup-TempCleanup (deleted=0 failed=0)=101ms
+2026-02-12 20:17:33  Startup temp cleanup: deleted=0 failed=0
+2026-02-12 20:17:33  Startup profile: in-script=314ms; boot=1179ms; Load-Config=132ms | Apply-UiTheme=35ms | Ensure-Folders=13ms | Startup-TempCleanup (deleted=0 failed=0)=133ms
+2026-02-12 20:19:48  Startup temp cleanup: deleted=0 failed=0
+2026-02-12 20:19:48  Startup profile: in-script=235ms; boot=1017ms; Load-Config=108ms | Apply-UiTheme=28ms | Ensure-Folders=8ms | Startup-TempCleanup (deleted=0 failed=0)=91ms
+2026-02-13 15:02:52  Startup temp cleanup: deleted=0 failed=0
+2026-02-13 15:02:53  Startup profile: in-script=525ms; boot=4220ms; Load-Config=251ms | Apply-UiTheme=61ms | Ensure-Folders=24ms | Startup-TempCleanup (deleted=0 failed=0)=188ms
+2026-02-13 15:02:59  Startup temp cleanup: deleted=0 failed=0
+2026-02-13 15:02:59  Startup profile: in-script=409ms; boot=1804ms; Load-Config=165ms | Apply-UiTheme=54ms | Ensure-Folders=14ms | Startup-TempCleanup (deleted=0 failed=0)=176ms
+2026-02-14 07:51:42  Startup temp cleanup: deleted=0 failed=0
+2026-02-14 07:51:43  Startup profile: in-script=369ms; boot=3608ms; Load-Config=218ms | Apply-UiTheme=39ms | Ensure-Folders=14ms | Startup-TempCleanup (deleted=0 failed=0)=98ms
+2026-02-14 07:52:42  Startup temp cleanup: deleted=0 failed=0
+2026-02-14 07:52:42  Startup profile: in-script=244ms; boot=1034ms; Load-Config=104ms | Apply-UiTheme=27ms | Ensure-Folders=8ms | Startup-TempCleanup (deleted=0 failed=0)=106ms
+2026-02-14 07:53:44  Startup temp cleanup: deleted=0 failed=0
+2026-02-14 07:53:44  Startup profile: in-script=268ms; boot=1573ms; Load-Config=125ms | Apply-UiTheme=30ms | Ensure-Folders=10ms | Startup-TempCleanup (deleted=0 failed=0)=104ms
+2026-02-14 07:58:22  Startup temp cleanup: deleted=0 failed=0
+2026-02-14 07:58:22  Startup profile: in-script=229ms; boot=1072ms; Load-Config=99ms | Apply-UiTheme=28ms | Ensure-Folders=7ms | Startup-TempCleanup (deleted=0 failed=0)=95ms
+2026-02-14 07:58:24  Queue start job=ydlq count=1
+2026-02-14 07:59:08  Queue end job=ydlq success=1 failed=0 skipped=0
+2026-02-14 07:59:08  Toast notification failed: Unable to find type [Windows.UI.Notifications.ToastNotificationManager,Windows.UI.Notifications, ContentType=WindowsRuntime].
+2026-02-14 07:59:10  Notify job=ydlq state=Completed sent=True details=Success=1, Failed=0, Skipped=0
+2026-02-14 08:08:37  Queue start job=ydlq count=1
+2026-02-14 08:09:24  Queue end job=ydlq success=1 failed=0 skipped=0
+2026-02-14 08:09:25  Toast notification failed: Unable to find type [Windows.UI.Notifications.ToastNotificationManager,Windows.UI.Notifications, ContentType=WindowsRuntime].
+2026-02-14 08:09:26  Notify job=ydlq state=Completed sent=True details=Success=1, Failed=0, Skipped=0
+2026-02-14 08:19:43  Queue start job=ydlq count=1
+2026-02-14 08:20:20  Queue end job=ydlq success=1 failed=0 skipped=0
+2026-02-14 08:20:20  Toast notification failed: Unable to find type [Windows.UI.Notifications.ToastNotificationManager,Windows.UI.Notifications, ContentType=WindowsRuntime].
+2026-02-14 08:20:22  Notify job=ydlq state=Completed sent=True details=Success=1, Failed=0, Skipped=0
+2026-02-14 08:20:24  Queue start job=ydlq count=1
+2026-02-14 08:20:51  Queue end job=ydlq success=1 failed=0 skipped=0
+2026-02-14 08:20:51  Toast notification failed: Unable to find type [Windows.UI.Notifications.ToastNotificationManager,Windows.UI.Notifications, ContentType=WindowsRuntime].
+2026-02-14 08:20:53  Notify job=ydlq state=Completed sent=True details=Success=1, Failed=0, Skipped=0
+2026-02-14 08:22:49  Queue start job=ydlq count=1
+2026-02-14 08:23:11  Queue end job=ydlq success=1 failed=0 skipped=0
+2026-02-14 08:23:11  Toast notification failed: Unable to find type [Windows.UI.Notifications.ToastNotificationManager,Windows.UI.Notifications, ContentType=WindowsRuntime].
+2026-02-14 08:23:13  Notify job=ydlq state=Completed sent=True details=Success=1, Failed=0, Skipped=0
+2026-02-14 08:28:32  Queue start job=ydlq count=1
+2026-02-14 08:28:55  Queue end job=ydlq success=1 failed=0 skipped=0
+2026-02-14 08:28:55  Toast notification failed: Unable to find type [Windows.UI.Notifications.ToastNotificationManager,Windows.UI.Notifications, ContentType=WindowsRuntime].
+2026-02-14 08:28:56  Notify job=ydlq state=Completed sent=True details=Success=1, Failed=0, Skipped=0
+2026-02-14 08:36:22  Queue start job=ydlq count=1
+2026-02-14 08:38:02  Queue end job=ydlq success=1 failed=0 skipped=0
+2026-02-14 08:38:02  Toast notification failed: Unable to find type [Windows.UI.Notifications.ToastNotificationManager,Windows.UI.Notifications, ContentType=WindowsRuntime].
+2026-02-14 08:38:03  Notify job=ydlq state=Completed sent=True details=Success=1, Failed=0, Skipped=0
+2026-02-14 08:42:04  Queue start job=ydlq count=1
+2026-02-14 08:42:35  Queue end job=ydlq success=1 failed=0 skipped=0
+2026-02-14 08:42:35  Toast notification failed: Unable to find type [Windows.UI.Notifications.ToastNotificationManager,Windows.UI.Notifications, ContentType=WindowsRuntime].
+2026-02-14 08:42:36  Notify job=ydlq state=Completed sent=True details=Success=1, Failed=0, Skipped=0
+2026-02-14 09:00:14  Queue start job=ydlq count=1
+2026-02-14 09:03:20  Queue end job=ydlq success=1 failed=0 skipped=0
+2026-02-14 09:03:20  Toast notification failed: Unable to find type [Windows.UI.Notifications.ToastNotificationManager,Windows.UI.Notifications, ContentType=WindowsRuntime].
+2026-02-14 09:03:22  Notify job=ydlq state=Completed sent=True details=Success=1, Failed=0, Skipped=0
+2026-02-14 09:08:10  Queue start job=ydlq count=1
+2026-02-14 09:09:08  Queue end job=ydlq success=1 failed=0 skipped=0
+2026-02-14 09:09:08  Toast notification failed: Unable to find type [Windows.UI.Notifications.ToastNotificationManager,Windows.UI.Notifications, ContentType=WindowsRuntime].
+2026-02-14 09:09:10  Notify job=ydlq state=Completed sent=True details=Success=1, Failed=0, Skipped=0
+2026-02-14 09:18:33  Queue start job=ydlq count=1
+2026-02-14 09:19:58  Queue end job=ydlq success=1 failed=0 skipped=0
+2026-02-14 09:19:59  Toast notification failed: Unable to find type [Windows.UI.Notifications.ToastNotificationManager,Windows.UI.Notifications, ContentType=WindowsRuntime].
+2026-02-14 09:20:00  Notify job=ydlq state=Completed sent=True details=Success=1, Failed=0, Skipped=0
+2026-02-14 12:23:40  Startup temp cleanup: deleted=0 failed=0
+2026-02-14 12:23:40  Startup profile: in-script=358ms; boot=2166ms; Load-Config=166ms | Apply-UiTheme=40ms | Ensure-Folders=13ms | Startup-TempCleanup (deleted=0 failed=0)=139ms
+2026-02-14 12:24:31  System.Management.Automation.PropertyNotFoundException: The property 'Count' cannot be found on this object. Verify that the property exists.
+   at System.Management.Automation.ExceptionHandlingOps.CheckActionPreference(FunctionContext funcContext, Exception exception)
+   at System.Management.Automation.Interpreter.ActionCallInstruction`2.Run(InterpretedFrame frame)
+   at System.Management.Automation.Interpreter.EnterTryCatchFinallyInstruction.Run(InterpretedFrame frame)
+   at System.Management.Automation.Interpreter.EnterTryCatchFinallyInstruction.Run(InterpretedFrame frame)
+2026-02-14 12:24:31  Toast notification failed: Unable to find type [Windows.UI.Notifications.ToastNotificationManager,Windows.UI.Notifications, ContentType=WindowsRuntime].
+2026-02-14 12:24:32  Notify job=Key Detect state=Failed sent=True details=The property 'Count' cannot be found on this object. Verify that the property exists.
+2026-02-14 12:34:47  Startup temp cleanup: deleted=0 failed=0
+2026-02-14 12:34:48  Startup profile: in-script=193ms; boot=1016ms; Load-Config=92ms | Apply-UiTheme=27ms | Ensure-Folders=26ms | Startup-TempCleanup (deleted=0 failed=0)=47ms
+2026-02-14 12:35:02  System.Management.Automation.RuntimeException: Operation cancelled by user (Ctrl+C).
+2026-02-14 12:35:02  Toast notification failed: Unable to find type [Windows.UI.Notifications.ToastNotificationManager,Windows.UI.Notifications, ContentType=WindowsRuntime].
+2026-02-14 12:35:03  Notify job=Key Detect state=Failed sent=True details=Operation cancelled by user (Ctrl+C).
+2026-02-14 12:36:36  Startup temp cleanup: deleted=0 failed=0
+2026-02-14 12:36:36  Startup profile: in-script=219ms; boot=1103ms; Load-Config=102ms | Apply-UiTheme=24ms | Ensure-Folders=9ms | Startup-TempCleanup (deleted=0 failed=0)=84ms
+2026-02-14 12:36:54  Startup temp cleanup: deleted=0 failed=0
+2026-02-14 12:36:54  Startup profile: in-script=221ms; boot=1052ms; Load-Config=97ms | Apply-UiTheme=26ms | Ensure-Folders=9ms | Startup-TempCleanup (deleted=0 failed=0)=89ms
+2026-02-14 13:28:20  Startup temp cleanup: deleted=0 failed=0
+2026-02-14 13:28:20  Startup profile: in-script=235ms; boot=1101ms; Load-Config=95ms | Apply-UiTheme=27ms | Ensure-Folders=8ms | Startup-TempCleanup (deleted=0 failed=0)=105ms
+2026-02-14 13:30:13  Startup temp cleanup: deleted=0 failed=0
+2026-02-14 13:30:13  Startup profile: in-script=213ms; boot=1243ms; Load-Config=99ms | Apply-UiTheme=25ms | Ensure-Folders=26ms | Startup-TempCleanup (deleted=0 failed=0)=63ms
+2026-02-14 19:08:54  Startup temp cleanup: deleted=0 failed=0
+2026-02-14 19:08:55  Startup profile: in-script=298ms; boot=1382ms; Load-Config=132ms | Apply-UiTheme=34ms | Ensure-Folders=12ms | Startup-TempCleanup (deleted=0 failed=0)=118ms
+2026-02-14 19:20:07  Toast notification failed: Unable to find type [Windows.UI.Notifications.ToastNotificationManager,Windows.UI.Notifications, ContentType=WindowsRuntime].
+2026-02-14 19:20:08  Notify job=Demucs state=Completed sent=True details=C:\Users\User\Downloads\stems
+2026-02-14 21:05:15  Startup temp cleanup: deleted=0 failed=0
+2026-02-14 21:05:15  Startup profile: in-script=212ms; boot=967ms; Load-Config=87ms | Apply-UiTheme=24ms | Ensure-Folders=7ms | Startup-TempCleanup (deleted=0 failed=0)=94ms
+2026-02-14 21:10:39  Startup temp cleanup: deleted=0 failed=0
+2026-02-14 21:10:39  Startup profile: in-script=187ms; boot=952ms; Load-Config=89ms | Apply-UiTheme=24ms | Ensure-Folders=7ms | Startup-TempCleanup (deleted=0 failed=0)=67ms
+2026-02-14 21:12:13  Startup temp cleanup: deleted=0 failed=0
+2026-02-14 21:12:13  Startup profile: in-script=228ms; boot=1186ms; Load-Config=107ms | Apply-UiTheme=30ms | Ensure-Folders=9ms | Startup-TempCleanup (deleted=0 failed=0)=83ms
+2026-02-14 21:12:55  Run-FFmpegWithProgress: ffmpeg -hide_banner -y -i "C:\Users\User\Downloads\DJDownloads\MP4\T.O.K & Major Lazer - Shell It Down HQ (2013) [UkS9zPvYBMY].mp4" -vn -map_metadata -1 -c:a libmp3lame -q:a 0 C:\Users\User\Downloads\DJDownloads\MP3\T.O.K_Major_Lazer_-_Shell_It_Down_HQ_2013_UkS9zPvYBMY_01.mp3 -progress pipe:1
+2026-02-14 21:12:59  Toast notification failed: Unable to find type [Windows.UI.Notifications.ToastNotificationManager,Windows.UI.Notifications, ContentType=WindowsRuntime].
+2026-02-14 21:13:01  Notify job=Video -> MP3 state=Completed sent=True details=Converted=1, Failed=0
+2026-02-14 21:14:34  Startup temp cleanup: deleted=0 failed=0
+2026-02-14 21:14:34  Startup profile: in-script=194ms; boot=945ms; Load-Config=87ms | Apply-UiTheme=24ms | Ensure-Folders=22ms | Startup-TempCleanup (deleted=0 failed=0)=60ms
+2026-02-14 21:14:44  Run-FFmpegWithProgress: ffmpeg -hide_banner -y -i "C:\Users\User\Downloads\DJDownloads\MP4\KONSHENS - STOP SIGN OFFICIAL VIDEO LEAKED!!! LOL [UPet7kGEYEs].mp4" -vn -map_metadata -1 -c:a libmp3lame -q:a 0 C:\Users\User\Downloads\DJDownloads\Videos_to_MP3\KONSHENS_-_STOP_SIGN_OFFICIAL_VIDEO_LEAKED_LOL_UPet7kGEYEs_01.mp3 -progress pipe:1
+2026-02-14 21:14:48  Toast notification failed: Unable to find type [Windows.UI.Notifications.ToastNotificationManager,Windows.UI.Notifications, ContentType=WindowsRuntime].
+2026-02-14 21:14:49  Notify job=Video -> MP3 state=Completed sent=True details=Converted=1, Failed=0
+2026-02-14 21:20:11  Run-FFmpegWithProgress: ffmpeg -hide_banner -y -i C:\Users\User\Downloads\Video\Instagram_11.mp4 -vn -map_metadata -1 -c:a libmp3lame -q:a 0 C:\Users\User\Downloads\DJDownloads\Videos_to_MP3\Instagram_11_01.mp3 -progress pipe:1
+2026-02-14 21:20:12  Run-FFmpegWithProgress: ffmpeg -hide_banner -y -i C:\Users\User\Downloads\Video\Instagram_10.mp4 -vn -map_metadata -1 -c:a libmp3lame -q:a 0 C:\Users\User\Downloads\DJDownloads\Videos_to_MP3\Instagram_10_01.mp3 -progress pipe:1
+2026-02-14 21:20:13  Run-FFmpegWithProgress: ffmpeg -hide_banner -y -i C:\Users\User\Downloads\Video\Instagram_9.mp4 -vn -map_metadata -1 -c:a libmp3lame -q:a 0 C:\Users\User\Downloads\DJDownloads\Videos_to_MP3\Instagram_9_01.mp3 -progress pipe:1
+2026-02-14 21:20:14  Run-FFmpegWithProgress: ffmpeg -hide_banner -y -i C:\Users\User\Downloads\Video\Instagram_8.mp4 -vn -map_metadata -1 -c:a libmp3lame -q:a 0 C:\Users\User\Downloads\DJDownloads\Videos_to_MP3\Instagram_8_01.mp3 -progress pipe:1
+2026-02-14 21:20:15  Run-FFmpegWithProgress: ffmpeg -hide_banner -y -i C:\Users\User\Downloads\Video\Instagram_7.mp4 -vn -map_metadata -1 -c:a libmp3lame -q:a 0 C:\Users\User\Downloads\DJDownloads\Videos_to_MP3\Instagram_7_01.mp3 -progress pipe:1
+2026-02-14 21:20:17  Run-FFmpegWithProgress: ffmpeg -hide_banner -y -i C:\Users\User\Downloads\Video\Instagram_6.mp4 -vn -map_metadata -1 -c:a libmp3lame -q:a 0 C:\Users\User\Downloads\DJDownloads\Videos_to_MP3\Instagram_6_01.mp3 -progress pipe:1
+2026-02-14 21:20:18  Run-FFmpegWithProgress: ffmpeg -hide_banner -y -i C:\Users\User\Downloads\Video\Instagram_5.mp4 -vn -map_metadata -1 -c:a libmp3lame -q:a 0 C:\Users\User\Downloads\DJDownloads\Videos_to_MP3\Instagram_5_01.mp3 -progress pipe:1
+2026-02-14 21:20:19  Run-FFmpegWithProgress: ffmpeg -hide_banner -y -i C:\Users\User\Downloads\Video\Instagram_4.mp4 -vn -map_metadata -1 -c:a libmp3lame -q:a 0 C:\Users\User\Downloads\DJDownloads\Videos_to_MP3\Instagram_4_01.mp3 -progress pipe:1
+2026-02-14 21:20:20  Run-FFmpegWithProgress: ffmpeg -hide_banner -y -i C:\Users\User\Downloads\Video\Instagram_3.mp4 -vn -map_metadata -1 -c:a libmp3lame -q:a 0 C:\Users\User\Downloads\DJDownloads\Videos_to_MP3\Instagram_3_01.mp3 -progress pipe:1
+2026-02-14 21:20:21  Run-FFmpegWithProgress: ffmpeg -hide_banner -y -i C:\Users\User\Downloads\Video\Instagram_2.mp4 -vn -map_metadata -1 -c:a libmp3lame -q:a 0 C:\Users\User\Downloads\DJDownloads\Videos_to_MP3\Instagram_2_01.mp3 -progress pipe:1
+2026-02-14 21:20:22  Run-FFmpegWithProgress: ffmpeg -hide_banner -y -i C:\Users\User\Downloads\Video\Instagram.mp4 -vn -map_metadata -1 -c:a libmp3lame -q:a 0 C:\Users\User\Downloads\DJDownloads\Videos_to_MP3\Instagram_01.mp3 -progress pipe:1
+2026-02-14 21:20:23  Toast notification failed: Unable to find type [Windows.UI.Notifications.ToastNotificationManager,Windows.UI.Notifications, ContentType=WindowsRuntime].
+2026-02-14 21:20:24  Notify job=Video -> MP3 state=Completed sent=True details=Converted=11, Failed=0
+2026-02-15 11:19:47  Startup temp cleanup: deleted=0 failed=0
+2026-02-15 11:19:48  Startup profile: in-script=519ms; boot=3939ms; Load-Config=264ms | Apply-UiTheme=71ms | Ensure-Folders=24ms | Startup-TempCleanup (deleted=0 failed=0)=160ms
+2026-02-15 19:39:31  Startup temp cleanup: deleted=0 failed=0
+2026-02-15 19:39:31  Startup profile: in-script=209ms; boot=961ms; Load-Config=93ms | Apply-UiTheme=27ms | Ensure-Folders=12ms | Startup-TempCleanup (deleted=0 failed=0)=77ms
+2026-02-15 19:39:44  Queue start job=ydlq count=1
+2026-02-15 20:02:25  Queue start job=ydlq count=1
+2026-02-15 20:07:10  Queue start job=ydlq count=1
+2026-02-15 20:10:00  Queue end job=ydlq success=1 failed=0 skipped=0
+2026-02-15 20:10:01  Toast notification failed: Unable to find type [Windows.UI.Notifications.ToastNotificationManager,Windows.UI.Notifications, ContentType=WindowsRuntime].
+2026-02-15 20:10:02  Notify job=ydlq state=Completed sent=True details=Success=1, Failed=0, Skipped=0
+2026-02-15 20:22:51  Startup temp cleanup: deleted=0 failed=0
+2026-02-15 20:22:51  Startup profile: in-script=666ms; boot=3135ms; Load-Config=298ms | Apply-UiTheme=87ms | Ensure-Folders=42ms | Startup-TempCleanup (deleted=0 failed=0)=238ms
+2026-02-15 20:23:43  Queue start job=ydlq count=1
+2026-02-15 20:23:54  Queue item failed: https://www.youtube.com/watch?v=nIb22KNpuM4&list=RDnIb22KNpuM4&rco=1 :: [youtube:tab] Extracting URL: https://www.youtube.com/watch?v=nIb22KNpuM4&list=RDnIb22KNpuM4&rco=1
+[youtube:tab] Downloading just the video nIb22KNpuM4 because of --no-playlist
+[youtube] Extracting URL: https://www.youtube.com/watch?v=nIb22KNpuM4
+[youtube] nIb22KNpuM4: Downloading webpage
+[youtube] nIb22KNpuM4: Downloading android vr player API JSON
+[youtube] nIb22KNpuM4: This video is age-restricted; some formats may be missing without authentication. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+[youtube] nIb22KNpuM4: Downloading web embedded client config
+[youtube] nIb22KNpuM4: Downloading player 1798f86c-tv
+[youtube] nIb22KNpuM4: Downloading web embedded player API JSON
+[youtube] nIb22KNpuM4: Downloading web safari player API JSON
+ERROR: [youtube] nIb22KNpuM4: Sign in to confirm your age. This video may be inappropriate for some users. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+2026-02-15 20:23:54  Queue end job=ydlq success=0 failed=1 skipped=0
+2026-02-15 20:23:54  Toast notification failed: Unable to find type [Windows.UI.Notifications.ToastNotificationManager,Windows.UI.Notifications, ContentType=WindowsRuntime].
+2026-02-15 20:23:56  Notify job=ydlq state=Failed sent=True details=Success=0, Failed=1, Skipped=0
+2026-02-15 20:30:13  Startup temp cleanup: deleted=0 failed=0
+2026-02-15 20:30:14  Startup profile: in-script=2377ms; boot=6863ms; Load-Config=1087ms | Apply-UiTheme=434ms | Ensure-Folders=137ms | Startup-TempCleanup (deleted=0 failed=0)=711ms
+2026-02-15 22:19:50  Queue start job=ydlq count=1
+2026-02-16 18:03:30  Queue start job=ydlq count=1
+2026-02-16 18:06:30  Queue end job=ydlq success=1 failed=0 skipped=0
+2026-02-16 18:06:30  Toast notification failed: Unable to find type [Windows.UI.Notifications.ToastNotificationManager,Windows.UI.Notifications, ContentType=WindowsRuntime].
+2026-02-16 18:06:32  Notify job=ydlq state=Completed sent=True details=Success=1, Failed=0, Skipped=0
+2026-02-16 18:13:12  Queue start job=ydlq count=1
+2026-02-16 18:14:07  Queue end job=ydlq success=1 failed=0 skipped=0
+2026-02-16 18:14:08  Toast notification failed: Unable to find type [Windows.UI.Notifications.ToastNotificationManager,Windows.UI.Notifications, ContentType=WindowsRuntime].
+2026-02-16 18:14:09  Notify job=ydlq state=Completed sent=True details=Success=1, Failed=0, Skipped=0
+2026-02-16 18:56:31  Queue start job=ydlq count=1
+2026-02-16 18:56:44  Queue item failed: https://www.youtube.com/watch?v=coCrrHqLQko&pp=ygUKY2hhcmxpIHhjeA%3D%3D :: 
+Usage: yt-dlp [OPTIONS] URL [URL...]
+
+yt-dlp: error: You must provide at least one URL.
+Type yt-dlp --help to see a list of all options.
+2026-02-16 18:56:44  Queue end job=ydlq success=0 failed=1 skipped=0
+2026-02-16 18:56:44  Toast notification failed: Unable to find type [Windows.UI.Notifications.ToastNotificationManager,Windows.UI.Notifications, ContentType=WindowsRuntime].
+2026-02-16 18:56:47  Notify job=ydlq state=Failed sent=True details=Success=0, Failed=1, Skipped=0
+2026-02-16 19:05:47  Queue start job=ydlq count=1
+2026-02-16 19:06:08  Queue item failed: https://www.youtube.com/watch?v=coCrrHqLQko&pp=ygUKY2hhcmxpIHhjeA%3D%3D :: 
+Usage: yt-dlp [OPTIONS] URL [URL...]
+
+yt-dlp: error: You must provide at least one URL.
+Type yt-dlp --help to see a list of all options.
+2026-02-16 19:06:08  Queue end job=ydlq success=0 failed=1 skipped=0
+2026-02-16 19:06:09  Toast notification failed: Unable to find type [Windows.UI.Notifications.ToastNotificationManager,Windows.UI.Notifications, ContentType=WindowsRuntime].
+2026-02-16 19:06:10  Notify job=ydlq state=Failed sent=True details=Success=0, Failed=1, Skipped=0
+2026-02-16 19:20:08  Queue start job=ydlq count=1
+2026-02-17 06:56:31  Queue start job=ydlq count=1
+2026-02-17 06:56:38  Queue item failed: https://www.youtube.com/watch?v=terfH1xFMJk :: 
+Usage: yt-dlp [OPTIONS] URL [URL...]
+
+yt-dlp: error: You must provide at least one URL.
+Type yt-dlp --help to see a list of all options.
+2026-02-17 06:56:38  Queue end job=ydlq success=0 failed=1 skipped=0
+2026-02-17 06:56:38  Notify suppressed in GUI mode job=ydlq ok=False details=Success=0, Failed=1, Skipped=0
+2026-02-17 07:40:29  Queue start job=ydlq count=1
+2026-02-17 07:40:33  Queue item failed: https://www.youtube.com/watch?v=terfH1xFMJk :: 
+Usage: yt-dlp [OPTIONS] URL [URL...]
+
+yt-dlp: error: You must provide at least one URL.
+Type yt-dlp --help to see a list of all options.
+2026-02-17 07:40:33  Queue end job=ydlq success=0 failed=1 skipped=0
+2026-02-17 07:40:33  Notify suppressed in GUI mode job=ydlq ok=False details=Success=0, Failed=1, Skipped=0
+2026-02-17 07:49:47  Queue start job=ydlq count=1
+2026-02-17 07:49:55  Queue item failed: https://www.youtube.com/watch?v=terfH1xFMJk :: 
+Usage: yt-dlp [OPTIONS] URL [URL...]
+
+yt-dlp: error: You must provide at least one URL.
+Type yt-dlp --help to see a list of all options.
+2026-02-17 07:49:55  Queue end job=ydlq success=0 failed=1 skipped=0
+2026-02-17 07:49:55  Notify suppressed in GUI mode job=ydlq ok=False details=Success=0, Failed=1, Skipped=0
+2026-02-17 08:08:40  Queue start job=ydlq count=1
+2026-02-17 08:08:40  Queue command [ydlq] yt-dlp https://www.youtube.com/watch?v=terfH1xFMJk
+2026-02-17 08:10:08  Queue start job=ydlq count=1
+2026-02-17 08:10:08  Queue command [ydlq] yt-dlp https://www.youtube.com/watch?v=b-Blr0_koQA&pp=ygUHdHJhaWxlcg%3D%3D
+2026-02-17 08:10:29  Queue end job=ydlq success=1 failed=0 skipped=0
+2026-02-17 08:10:29  Notify suppressed in GUI mode job=ydlq ok=True details=Success=1, Failed=0, Skipped=0
+2026-02-17 08:22:35  Queue start job=ydlq count=1
+2026-02-17 08:22:36  Queue command [ydlq] yt-dlp https://www.youtube.com/watch?v=b-Blr0_koQA&pp=ygUHdHJhaWxlcg%3D%3D
+2026-02-17 08:22:44  Queue end job=ydlq success=1 failed=0 skipped=0
+2026-02-17 08:22:44  Notify suppressed in GUI mode job=ydlq ok=True details=Success=1, Failed=0, Skipped=0
+2026-02-17 08:37:25  Queue start job=ydlq count=1
+2026-02-17 08:37:26  Queue command [ydlq] yt-dlp https://www.youtube.com/watch?v=b-Blr0_koQA&pp=ygUHdHJhaWxlcg%3D%3D
+2026-02-17 08:37:46  Queue end job=ydlq success=1 failed=0 skipped=0
+2026-02-17 08:37:46  Notify suppressed in GUI mode job=ydlq ok=True details=Success=1, Failed=0, Skipped=0
+2026-02-17 08:54:19  Queue start job=ydlq count=1
+2026-02-17 08:54:19  Queue command [ydlq] yt-dlp https://www.youtube.com/watch?v=nIb22KNpuM4&list=RDnIb22KNpuM4&rco=1
+2026-02-20 14:23:06  Queue start job=ydlq count=1
+2026-02-20 14:23:06  Queue command [ydlq] yt-dlp https://www.youtube.com/watch?v=1KGKqu3AQ1k
+2026-02-20 15:13:43  Queue start job=ydla count=1
+2026-02-20 15:13:44  Queue command [ydla] yt-dlp https://www.youtube.com/watch?v=JHYX0061sPM&pp=ygUDdG11
+2026-02-21 12:47:11  Queue start job=ydlq count=1
+2026-02-21 12:47:11  Queue command [ydlq] yt-dlp https://www.youtube.com/watch?v=c51ND9Hdbw0&pp=ygUHdHJhaWxlctIHCQmiCgGHKiGM7w%3D%3D
+2026-02-21 12:51:30  Queue start job=ydlq count=1
+2026-02-21 12:51:31  Queue command [ydlq] yt-dlp https://www.youtube.com/watch?v=c51ND9Hdbw0&pp=ygUHdHJhaWxlctIHCQmiCgGHKiGM7w%3D%3D
+2026-02-21 12:51:49  Queue end job=ydlq success=1 failed=0 skipped=0
+2026-02-21 12:51:49  Notify suppressed in GUI mode job=ydlq ok=True details=Success=1, Failed=0, Skipped=0
+2026-03-10 15:27:29  Notify suppressed in GUI mode job=Demucs ok=True details=C:\Users\User\Downloads\stems

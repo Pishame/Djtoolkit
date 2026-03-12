@@ -1,0 +1,13 @@
+{
+  "project_id": "7840244415652567030",
+  "project_title": "MyDJToolkit Dashboard",
+  "screen_id": "71928f812d044c948b4fdb3881edf348",
+  "screen_title": "YouTube Settings with Download Path",
+  "screenshot_url": "https://lh3.googleusercontent.com/aida/AOfcidVswrFm8FSLPIJIXDdYfg1sIeLhIJfLSuIclbUpM4NQ0yrhIIemQgnxV9NsE3mqAz0OIx-drFPzcx_J1UqWtEK3VRI2odXL-pJMrp6-2GbZ4ikyEy-yhgOtZmE2VNAc_egLw3V5NVCWFwh4Co8LxBTk9W43i7kqrCMLMI8O7fA2b8BJGKKRM96m7MX1QmHq2u-TpjcLsE2A6VyqiCt607q9R-uo_AZOYem72oKc0OGUa4FUBHKuGn_zsXU",
+  "html_download_url": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzdiODFmMDhhOGRiMTQ4M2U5Yjg5MDNkNWIwMWMxZTkzEgsSBxDBtdHS3hAYAZIBIwoKcHJvamVjdF9pZBIVQhM3ODQwMjQ0NDE1NjUyNTY3MDMw&filename=&opi=89354086",
+  "fetched_at": "2026-02-16",
+  "notes": [
+    "Direct download with curl may fail in restricted network environments.",
+    "Use the URLs above from a normal internet-connected shell."
+  ]
+}

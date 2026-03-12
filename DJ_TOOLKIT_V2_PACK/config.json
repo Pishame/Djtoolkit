@@ -1,0 +1,33 @@
+{
+  "AutoOpenOutputFolder": false,
+  "DefaultClipLengthSec": 60,
+  "DefaultClipSection": "Start",
+  "OutputMode": "SameFolder",
+  "EnableDemucs": true,
+  "EnableBpmDetect": false,
+  "DemucsModel": "htdemucs",
+  "TempCleanupMode": "AgeBased",
+  "TempRetentionDays": 7,
+  "ClipPresets": [
+    {
+      "Name": "30sec_middle",
+      "LengthSec": 30,
+      "Section": "Middle"
+    },
+    {
+      "Name": "60sec_start",
+      "LengthSec": 60,
+      "Section": "Start"
+    }
+  ],
+  "NotifyOnBatchComplete": true,
+  "NotifyOnBatchFailure": true,
+  "UIProgressMode": "Verbose",
+  "EnableBlockedAutoQuarantine": true,
+  "EnableStartupProfiler": true,
+  "TikTokWatermarkMode": "Auto",
+  "UITheme": "Neonred",
+  "RecentCookiesPath": "",
+  "RecentAudioPath": "C:\\Users\\User\\Downloads\\01 - Harry Craze - Bwagalaa.flac",
+  "RecentVideoPath": "C:\\Users\\User\\Downloads\\Video\\Instagram_11.mp4"
+}

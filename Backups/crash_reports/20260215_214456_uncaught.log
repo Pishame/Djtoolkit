@@ -1,0 +1,24 @@
+time=2026-02-15T21:44:56
+kind=uncaught
+title=Unhandled exception
+python=3.11.0 (main, Oct 24 2022, 18:26:48) [MSC v.1933 64 bit (AMD64)]
+cwd=C:\Users\User\Desktop\Copyright
+base_dir=C:\Users\User\Desktop\Copyright
+
+details:
+'MainWindow' object has no attribute 'config'
+
+traceback:
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Copyright\app_pyside.py", line 2503, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "C:\Users\User\Desktop\Copyright\app_pyside.py", line 2494, in main
+    w = MainWindow()
+        ^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Copyright\app_pyside.py", line 591, in __init__
+    self._build_ui()
+  File "C:\Users\User\Desktop\Copyright\app_pyside.py", line 1141, in _build_ui
+    self.chk_auto_dup.setChecked(bool(self.config.get("auto_move_duplicates", True)))
+                                      ^^^^^^^^^^^
+AttributeError: 'MainWindow' object has no attribute 'config'
