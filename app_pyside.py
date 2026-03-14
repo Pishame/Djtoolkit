@@ -13,6 +13,8 @@ from datetime import datetime, timedelta
 from pathlib import Path
 from typing import Callable, Dict, List, Optional
 from urllib.parse import parse_qs, urlparse
+import urllib.error
+import urllib.request
 try:
     import winsound
 except Exception:
@@ -1582,6 +1584,60 @@ class MainWindow(QtWidgets.QMainWindow):
                     pass
                 response["ok"] = True
                 response["data"] = {"logged": True}
+                return response
+            if cmd == "system.http_json":
+                url = str(payload.get("url", "") or "").strip()
+                method = str(payload.get("method", "GET") or "GET").strip().upper()
+                timeout_sec = float(payload.get("timeoutSec", 25.0) or 25.0)
+                headers_raw = payload.get("headers", {})
+                body = payload.get("body", None)
+                if not url or not url.startswith(("http://", "https://")):
+                    raise ValueError("Invalid payload.url for system.http_json")
+                if method not in {"GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"}:
+                    raise ValueError("Invalid payload.method for system.http_json")
+
+                headers: Dict[str, str] = {}
+                if isinstance(headers_raw, dict):
+                    for k, v in headers_raw.items():
+                        key = str(k or "").strip()
+                        val = str(v or "").strip()
+                        if key:
+                            headers[key] = val
+
+                body_bytes: Optional[bytes] = None
+                if body is not None:
+                    if isinstance(body, (dict, list)):
+                        body_text = json.dumps(body, ensure_ascii=False)
+                    else:
+                        body_text = str(body)
+                    body_bytes = body_text.encode("utf-8")
+                    if not any(k.lower() == "content-type" for k in headers.keys()):
+                        headers["Content-Type"] = "application/json"
+
+                req = urllib.request.Request(url=url, data=body_bytes, method=method)
+                for hk, hv in headers.items():
+                    req.add_header(hk, hv)
+
+                try:
+                    with urllib.request.urlopen(req, timeout=max(1.0, timeout_sec)) as resp:
+                        status = int(getattr(resp, "status", 200) or 200)
+                        text = resp.read().decode("utf-8", errors="ignore")
+                except urllib.error.HTTPError as http_err:
+                    status = int(getattr(http_err, "code", 500) or 500)
+                    text = http_err.read().decode("utf-8", errors="ignore")
+
+                parsed_json: object
+                try:
+                    parsed_json = json.loads(text) if text.strip() else {}
+                except Exception:
+                    parsed_json = {"raw": text}
+
+                response["ok"] = True
+                response["data"] = {
+                    "status": status,
+                    "ok": 200 <= status < 300,
+                    "json": parsed_json,
+                }
                 return response
             if cmd == "system.get_last_picked_files":
                 mode = str(payload.get("mode", "")).strip().lower()

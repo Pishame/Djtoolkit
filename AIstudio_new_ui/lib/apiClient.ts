@@ -48,6 +48,11 @@ async function request<T = JsonRecord>(path: string, init?: RequestInit): Promis
   const method = String(init?.method || 'GET').toUpperCase();
   const origin = typeof window !== 'undefined' && window.location ? window.location.origin : 'unknown';
   const online = typeof navigator !== 'undefined' ? String(navigator.onLine) : 'unknown';
+  const headersForRequest: Record<string, string> = {
+    'Content-Type': 'application/json',
+    ...((init?.headers as Record<string, string>) || {}),
+    'X-DJ-Trace-Id': reqTraceId,
+  };
   emitTrace('api.request.start', {
     traceId: reqTraceId,
     method,
@@ -57,14 +62,66 @@ async function request<T = JsonRecord>(path: string, init?: RequestInit): Promis
     origin,
     online,
   });
+
+  const bridge = typeof window !== 'undefined' ? (window as any).pyBridge : null;
+  if (origin === 'file://' && bridge && typeof bridge.bridgeCommand === 'function') {
+    try {
+      emitTrace('api.request.bridge.start', {
+        traceId: reqTraceId,
+        method,
+        path,
+        url,
+      });
+      const raw = bridge.bridgeCommand(
+        JSON.stringify({
+          version: '1.0',
+          requestId: `${Date.now()}`,
+          command: 'system.http_json',
+          payload: {
+            url,
+            method,
+            headers: headersForRequest,
+            body: init?.body ?? null,
+            timeoutSec: 30,
+          },
+        })
+      );
+      const parsed = raw ? JSON.parse(raw) : {};
+      if (!parsed?.ok) {
+        throw new Error(String(parsed?.error?.message || 'Bridge HTTP request failed.'));
+      }
+      const status = Number(parsed?.data?.status || 0);
+      const data = (parsed?.data?.json || {}) as JsonRecord;
+      emitTrace('api.request.bridge.response', {
+        traceId: reqTraceId,
+        method,
+        path,
+        url,
+        status,
+        ok: status >= 200 && status < 300,
+        responseError: String(data.error || ''),
+      });
+      if (!(status >= 200 && status < 300)) {
+        throw new Error(String(data.error || data.message || `Request failed (${status})`));
+      }
+      return data as T;
+    } catch (err) {
+      const msg = err instanceof Error ? err.message : String(err || 'Unknown bridge network error');
+      emitTrace('api.request.bridge.error', {
+        traceId: reqTraceId,
+        method,
+        path,
+        url,
+        error: msg,
+      });
+      throw new Error(`Network request failed [trace=${reqTraceId}] via bridge. ${msg} | url=${url} | base=${API_BASE_URL || '(empty)'} | origin=${origin} | online=${online}`);
+    }
+  }
+
   try {
     const res = await fetch(url, {
       ...init,
-      headers: {
-        'Content-Type': 'application/json',
-        'X-DJ-Trace-Id': reqTraceId,
-        ...(init?.headers || {}),
-      },
+      headers: headersForRequest,
     });
     const data = (await res.json().catch(() => ({}))) as JsonRecord;
     emitTrace('api.request.response', {
