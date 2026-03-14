@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { motion } from 'motion/react';
-import { ENABLE_SERVER_AUTH, apiGetGoogleStartUrl, apiSignIn, apiSignUp } from '../lib/apiClient';
+import { ENABLE_SERVER_AUTH, apiGetGoogleStartUrl, apiSignIn, apiSignUp, apiTrace } from '../lib/apiClient';
 
 interface LoginViewProps {
   onLogin: (payload: { email: string; remember: boolean }) => void;
@@ -23,17 +23,26 @@ const LoginView: React.FC<LoginViewProps> = ({ onLogin }) => {
   }, [email, password, fullName, confirmPassword, isRegistering]);
 
   const handleGoogleLogin = async () => {
+    apiTrace('auth.ui.google.click', {
+      mode: isRegistering ? 'register' : 'signin',
+      serverAuthEnabled: ENABLE_SERVER_AUTH,
+    });
     try {
       setIsLoading(true);
       setError(null);
       if (!ENABLE_SERVER_AUTH) {
+        apiTrace('auth.ui.google.blocked', { reason: 'server_auth_disabled' });
         setError('Server auth is disabled. Enable it in frontend env.');
         return;
       }
       const { url } = await apiGetGoogleStartUrl(window.location.origin);
       if (!url) throw new Error('Google login URL was not provided by server.');
+      apiTrace('auth.ui.google.redirect', { hasUrl: Boolean(url), origin: window.location.origin });
       window.location.href = url;
     } catch (err) {
+      apiTrace('auth.ui.google.error', {
+        error: err instanceof Error ? err.message : String(err || 'unknown_error'),
+      });
       setError(err instanceof Error ? err.message : 'Failed to initialize Google login.');
     } finally {
       setIsLoading(false);
@@ -42,11 +51,18 @@ const LoginView: React.FC<LoginViewProps> = ({ onLogin }) => {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    apiTrace('auth.ui.submit', {
+      mode: isRegistering ? 'register' : 'signin',
+      emailDomain: email.includes('@') ? email.split('@')[1] : '',
+      serverAuthEnabled: ENABLE_SERVER_AUTH,
+    });
     if (isRegistering && password !== confirmPassword) {
+      apiTrace('auth.ui.validation_error', { reason: 'password_mismatch' });
       setError('Passwords do not match.');
       return;
     }
     if (!ENABLE_SERVER_AUTH) {
+      apiTrace('auth.ui.validation_error', { reason: 'server_auth_disabled' });
       setError('Server auth is disabled. Enable it in frontend env.');
       return;
     }
@@ -56,12 +72,18 @@ const LoginView: React.FC<LoginViewProps> = ({ onLogin }) => {
     try {
       if (isRegistering) {
         await apiSignUp(email.trim(), password, fullName.trim());
+        apiTrace('auth.ui.signup.success', { emailDomain: email.includes('@') ? email.split('@')[1] : '' });
         setShowVerificationSent(true);
       } else {
         await apiSignIn(email.trim(), password);
+        apiTrace('auth.ui.signin.success', { emailDomain: email.includes('@') ? email.split('@')[1] : '' });
         onLogin({ email: email.trim(), remember });
       }
     } catch (err) {
+      apiTrace('auth.ui.submit.error', {
+        mode: isRegistering ? 'register' : 'signin',
+        error: err instanceof Error ? err.message : String(err || 'auth_failed'),
+      });
       setError(err instanceof Error ? err.message : 'Authentication failed');
     } finally {
       setIsLoading(false);

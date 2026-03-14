@@ -1571,7 +1571,7 @@ class MainWindow(QtWidgets.QMainWindow):
                 stage = str(payload.get("stage", "") or "").strip()
                 data = payload.get("data")
                 try:
-                    tr = self.base_dir / "Backups" / "picker_trace.log"
+                    tr = self.base_dir / "Backups" / "auth_trace.log"
                     tr.parent.mkdir(parents=True, exist_ok=True)
                     with tr.open("a", encoding="utf-8") as fh:
                         fh.write(

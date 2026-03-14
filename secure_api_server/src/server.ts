@@ -13,6 +13,8 @@ const allowedOrigins = String(process.env.ALLOWED_ORIGINS || '')
   .split(',')
   .map((s) => s.trim())
   .filter(Boolean);
+const allowAnyOrigin = allowedOrigins.includes('*');
+const allowNullOrigin = allowedOrigins.includes('null') || allowedOrigins.includes('file://');
 
 app.use(helmet());
 app.use(express.json({ limit: '1mb' }));
@@ -21,12 +23,32 @@ app.use(
   cors({
     origin: (origin, callback) => {
       if (!origin) return callback(null, true);
-      if (allowedOrigins.length === 0 || allowedOrigins.includes(origin)) return callback(null, true);
+      const normalized = String(origin || '').trim().toLowerCase();
+      if (normalized === 'null' && (allowNullOrigin || allowAnyOrigin || allowedOrigins.length === 0)) {
+        return callback(null, true);
+      }
+      if (allowAnyOrigin || allowedOrigins.length === 0 || allowedOrigins.includes(origin)) return callback(null, true);
       return callback(new Error('Origin not allowed by CORS'));
     },
     credentials: true,
   })
 );
+
+app.use((req, res, next) => {
+  const traceId = String(req.header('x-dj-trace-id') || req.header('x-trace-id') || '').trim();
+  const startedAt = Date.now();
+  res.on('finish', () => {
+    if (!req.path.startsWith('/api/auth/')) return;
+    const origin = String(req.header('origin') || '').trim() || '(none)';
+    // eslint-disable-next-line no-console
+    console.log(
+      `[auth-trace] ${req.method} ${req.path} status=${res.statusCode} trace=${traceId || '-'} origin=${origin} ms=${
+        Date.now() - startedAt
+      }`
+    );
+  });
+  next();
+});
 
 const supabaseUrl = String(process.env.SUPABASE_URL || '');
 const supabaseAnonKey = String(process.env.SUPABASE_ANON_KEY || '');
