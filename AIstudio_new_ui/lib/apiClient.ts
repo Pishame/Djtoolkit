@@ -72,7 +72,7 @@ async function request<T = JsonRecord>(path: string, init?: RequestInit): Promis
         path,
         url,
       });
-      const raw = bridge.bridgeCommand(
+      const rawResolved = await Promise.resolve(bridge.bridgeCommand(
         JSON.stringify({
           version: '1.0',
           requestId: `${Date.now()}`,
@@ -85,7 +85,8 @@ async function request<T = JsonRecord>(path: string, init?: RequestInit): Promis
             timeoutSec: 30,
           },
         })
-      );
+      ));
+      const raw = typeof rawResolved === 'string' ? rawResolved : JSON.stringify(rawResolved ?? {});
       const parsed = raw ? JSON.parse(raw) : {};
       if (!parsed?.ok) {
         throw new Error(String(parsed?.error?.message || 'Bridge HTTP request failed.'));
